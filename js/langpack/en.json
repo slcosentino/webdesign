@@ -1,0 +1,26 @@
+{
+	"token": {
+		"Hola mundo": "rovello",
+		"Nuestros Servicios": "Our services",
+		"Te asesoramos de forma personalizada y te brindamos una solución a la medida de tus necesidades": "sebaaaa",
+		"Creamos páginas web innovadoras y adaptadas a los dispositivos móviles. Nuestros desarrollos web están orientados a una implementación de fácil navegación y optimizados para buscadores": "sebaaaa2",
+		"Diseño web": "Web design",
+		"Diseñamos e implementamos desde sitios simples hasta portales complejos, trabajando siempre de acuerdo a las expectativas y presupuesto del cliente.": "",
+		"Diseño grafico": "Graphic design",
+		"Ofrecemos diseño y producción de los elementos básicos para el posicionamiento de su empresa en el mercado. Diseño de marca: logotipo e isologotipo, papelería institucional, tarjetas personales, folletería, carpeta institucional": "",
+		"Desarrollo de Aplicaciones": "Application development",
+		"Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal cualidad está en el desarrollo de software de movilidad a medida de las necesidades del cliente.": "",
+		"Nuestro servicio de hosting para mails y páginas web, garantizan máxima seguridad y velocidad. Los planes disponibles se adaptan a las necesidades de tu empresa.": "",
+		"Brindamos una herramienta muy fácil de utilizar para el envío de Newsletters. Organiza tus campañas de email Marketing con información de productos y promociones, fidelizando a tus clientes y contactos.": "",
+		"Tome el control de su contenido!": "",
+		"Que hacemos?": "What we do?",
+		"Nos especializamos en el desarrollo de software, servicios y soluciones relacionadas al ámbito de internet y ofrecemos una gama de servicios basados en la aplicación de nuevas tecnologías. La compañía está conformada por un equipo de profesionales que cuenta con una amplia experiencia en el desarrollo de aplicaciones de software sobre plataformas web, diseño de páginas web responsivas, email marketing, servicio de hosting y marketing en internet.": ""
+		
+	},
+	"regex": [
+		["Desarrollo Web", "Web development"],
+		["Acerca de nosotros": "About us"],
+		["^Something at start of text", ""],
+		["This will be case insensitive", "i", ""]
+	]
+}

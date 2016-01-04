@@ -1,7 +1,15 @@
 var app = {
-
+		
+	lang: null,
+		
 	initialize : function() {
+		this.lang = new Lang();
+		this.lang.dynamic('en', 'js/langpack/en.json');
+		this.lang.init({
+			defaultLang: 'es'
+		});
 
+		
 		this.bindEvents();
 
 		$(function() {
