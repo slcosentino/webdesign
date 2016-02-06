@@ -1,13 +1,10 @@
-/*--Portfolio Nuevo--*/
-
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,600,700&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic&subset=latin,latin-ext);
-
-/*--FIN Portfolio Nuevo--*/
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     background-color: #FFF;
+}
+body{
+	padding-top: 70px;
 }
 body a{
 	transition:0.5s all;
@@ -15,6 +12,11 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+}
+/*-----Sticky Header----*/
+.navbar-fixed-top {
+    background: #fff;
+    border-color: #F4BB36;
 }
 /*-----start-header----*/
 .logo{
@@ -587,7 +589,7 @@ h2.resp-accordion {
 }
 /*-----start-services----*/
 .services{
-	padding: 3em 0;
+	padding: 5em 0;
 	background: url(../images/services-bg.jpg);
 }
 .services-grid{
@@ -654,7 +656,7 @@ h2.resp-accordion {
 	padding-left: 0;
 }
 .about-head{
-	margin-top: 12%;
+	margin-top: 15%;
 	margin-bottom: 5%;
 }
 .about-head h4{
@@ -719,7 +721,7 @@ h2.resp-accordion {
 }
 /*-----start-portfolio----*/
 .portfolio-box-main{
-	padding: 3em 0 0 0;
+	padding: 5em 0 0 0;
 }
 .portfolio-head h3{
 	text-transform: uppercase;
@@ -1121,7 +1123,7 @@ span.default_line {
 /*-----start-contact----*/
 .contact{
 	background:url(../images/contact-bg.jpg) no-repeat 0px 0px;
-	padding: 3em 0 4em;
+	padding: 9em 0 9em;
 	background-size: 100% 100%;
 }
 .contact-head h3{
