@@ -1470,6 +1470,9 @@ span.default_line {
   .top-nav ul li a span {
 	background: none;
   }
+  span.pipe_lang{
+	display: none;
+  }
 }
 @media (max-width:640px){
  .slide-text-info h1 {
