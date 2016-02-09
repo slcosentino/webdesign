@@ -51,8 +51,8 @@
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-	<script src="js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
-	<script src="js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+	<script src="js/js.cookie.js" charset="utf-8" type="text/javascript"></script>	
+	<script src="js/jqueryTanslator.min.js" charset="utf-8" type="text/javascript"></script>	
 	<script type="text/javascript" src="js/index.js"></script>
 
 
@@ -71,23 +71,23 @@
 				<!----start-top-nav---->
 				<nav class="top-nav">
 					<ul class="top-nav">
-						<li class="active"><a href="#home" class="scroll">Inicio <span>
+						<li class="active"><a href="#home" class="scroll"  data-translate="MenuInicio">Inicio <span>
 							</span></a></li>
-						<li class="page-scroll"><a href="#port" class="scroll">Portfolio
+						<li class="page-scroll"><a href="#port" class="scroll"  data-translate="MenuPortfolio">Portfolio
 								<span> </span>
 						</a></li>					
-						<li class="page-scroll"><a href="#ser" class="scroll">Servicios
+						<li class="page-scroll"><a href="#ser" class="scroll" data-translate="MenuServicios">Servicios
 								<span> </span>
 						</a></li>
-						<li class="page-scroll"><a href="#about" class="scroll">Qui&eacute;nes Somos<span> </span>
+						<li class="page-scroll"><a href="#about" class="scroll" data-translate="MenuQuienes">Qui&eacute;nes Somos<span> </span>
 						</a></li>
-						<li class="page-scroll"><a href="#clientes" class="scroll">Clientes<span> </span>
+						<li class="page-scroll"><a href="#clientes" class="scroll" data-translate="MenuClientes">Clientes<span> </span>
 						</a></li>
 						<li class="contatct-active" class="page-scroll"><a
-							href="#contact" class="scroll">Cont&aacute;ctenos</a></li>
+							href="#contact" class="scroll" data-translate="MenuContactenos" >Cont&aacute;ctenos</a></li>
 						<li id="langChanger" class="page-scroll">
-								<a class="lang-Changer-es" href="#" onclick="app.lang.change('es'); return false;"><img class="flag-lang" src="images/es.png" width="18" height="12" alt="es" title="Español"></a> | 
-								<a class="lang-Changer-en" href="#" onclick="app.lang.change('en'); return false;"><img class="iclflag" src="images/en.png" width="18" height="12" alt="en" title="English"></a>
+								<a class="lang-Changer-es" href="#" onclick="$('[data-translate]').jqTranslate('index', { forceLang : 'es',path:'js/langpack' }); return false;"><img class="flag-lang" src="images/es.png" width="18" height="12" alt="es" title="Español"></a> | 
+								<a class="lang-Changer-en" href="#" onclick="$('[data-translate]').jqTranslate('index', { forceLang : 'en',path:'js/langpack' }); return false;"><img class="iclflag" src="images/en.png" width="18" height="12" alt="en" title="English"></a>
 						</li>
 								
 					</ul>
@@ -106,37 +106,37 @@
 			<li><img src="images/slide-quienes-somos.jpg" alt="quienes-somos">
 				<div class="caption text-center slide-quienes-somos">
 					<div class="slide-text-info">
-						<h2>
+						<h2 data-translate="slide1_a_c">
 							Somos una Agencia <span>Creativa</span>
 						</h2>
 						<div class="slide-text">
-							<p class="slide-1">Especializada en el desarrollo de software, servicios y soluciones relacionadas al ámbito de internet</p>
+							<p class="slide-1" data-translate="slide1_text">Especializada en el desarrollo de software, servicios y soluciones relacionadas al ámbito de internet</p>
 						</div>
-						<a class="btn2 scroll btn-quienes-somos" href="#about"><span>Ver m&aacute;s</span></a>
+						<a class="btn2 scroll btn-quienes-somos" href="#about"><span data-translate="ver_mas">Ver m&aacute;s</span></a>
 					</div>
 				</div></li>
 			<li><img src="images/slide-portfolio.jpg" alt="portfolio">
 				<div class="caption text-center">
 					<div class="slide-text-info">
-						<h2>
+						<h2 data-translate="slide2_c_e">
 							Creatividad <span> & </span> Experiencia
 						</h2>
 						<div class="slide-text">
-							<p class="slide-3">Diseñando & Desarrollando sitios web y aplicaciones innovadoras y de alta calidad</p>
+							<p class="slide-3" data-translate="slide2_text">Diseñando & Desarrollando sitios web y aplicaciones innovadoras y de alta calidad</p>
 						</div>
-						<a class="btn2 scroll" href="#port"><span class="span-portfolio">Conoce nuestros proyectos</span></a>
+						<a class="btn2 scroll" href="#port"><span class="span-portfolio" data-translate="slide2_n_p">Conoce nuestros proyectos</span></a>
 					</div>
 				</div></li>			
 			<li><img src="images/slide-contacto.jpg" alt="contacto">
 				<div class="caption text-center">
 					<div class="slide-text-info">
-						<h2>
+						<h2 data-translate="slide3_g_v">
 							Gracias por<span> Visitar</span>
 						</h2>
 						<div class="slide-text">
-							<p class="slide-3">Deje sus consultas y nos comunicaremos a la brevedad</p>
+							<p class="slide-3" data-translate="slide3_c_b">Deje sus consultas y nos comunicaremos a la brevedad</p>
 						</div>
-						<a class="btn2 scroll" href="#port"><span>Cont&aacute;ctenos</span></a>
+						<a class="btn2 scroll" href="#contact" ><span data-translate="slide3_c">Cont&aacute;ctenos</span></a>
 					</div>
 				</div></li>	
 		</ul>
@@ -149,8 +149,8 @@
 		<div class="container">
 			<div class="portfolio-head text-center">
 				<h3>Portfolio</h3>
-				<span>Trabajos realizados para nuestros clientes</span>
-				<p>"Este es nuestro portfolio. En él podrá encontrar una muestra
+				<span data-translate="portfolio_t_n_c">Trabajos realizados para nuestros clientes</span>
+				<p data-translate="portfolio_text">"Este es nuestro portfolio. En él podrá encontrar una muestra
 					de nuestros trabajos de diseño web, diseño de logos, maquetados,
 					plantillas de MercadoLibre, Plantillas para Newsletter."</p>
 			</div>
@@ -165,11 +165,11 @@
 					<div class="sap_tabs">
 						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 							<ul class="resp-tabs-list">
-								<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
-								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Pagina
+								<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span data-translate="todo">todo</span></li>
+								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span data-translate="pagina_web">Pagina
 										Web</span></li>
-								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Aplicacion</span></li>
-								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>graphics</span></li>
+								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span data-translate="aplicacion">Aplicacion</span></li>
+								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span data-translate="graficos">graficos</span></li>
 								<div class="clear"></div>
 							</ul>
 							<div class="resp-tabs-container">
@@ -180,49 +180,49 @@
 									      <figure><img src="images/atterie-573x414.jpg" alt="Atterie">
 									        <figcaption class="dark"><a href="#">
 									          <h2>Atterie</h2>
-									          <em>Prendas únicas, totalmente hechas a mano,sobre diseños propios</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="atterie_text">Prendas únicas, totalmente hechas a mano,sobre diseños propios</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
 									      <figure><img src="images/astros-573x414.jpg" alt="Astros">
 									        <figcaption class="turquaz"><a href="#">
 									          <h2>Astros</h2>
-									          <em>Conoc&eacute; todo acerca de astrologia, tarot y signos</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="astros_text">Conoc&eacute; todo acerca de astrologia, tarot y signos</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/appTel-573x414.jpg" alt="Chat">
 									        <figcaption class="blue"><a href="#">
 									          <h2>Chat</h2>
-									          <em>Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="chat_text">Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="double wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
 									      <figure><img src="images/biondi-830x761.jpg" alt="bodegas-biondi">
 									        <figcaption class="green"><a href="#">
 									          <h2>Bodegas Biondi</h2>
-									          <em>Conozca todos nuestros vinos de primera calidad</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="biondi_text">Conozca todos nuestros vinos de primera calidad</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="double wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
 									      <figure><img src="images/super-woman-860x408.jpg" alt="Super-woman">
 									        <figcaption class="purple"><a href="#">
 									          <h2>Super Woman</h2>
-									          <em>Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="super_woman_text">Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="half wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
 									      <figure><img src="images/gamers-430x381.jpg" alt="gamers">
 									        <figcaption class="yellow"><a href="#">
 									          <h2>Gamers</h2>
-									          <em>Juegos html5 gratis desde tu celular</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="gamers_text">Juegos html5 gratis desde tu celular</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="half wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
 									      <figure><img src="images/brindis-430x381.jpg" alt="Brindis">
 									        <figcaption class="light-blue"><a href="#">
 									          <h2>Brindis</h2>
-									          <em>Eventos especiales y servicios de catering</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="brindis_text">Eventos especiales y servicios de catering</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									  </ul>
@@ -236,14 +236,14 @@
 									      <figure><img src="images/atterie-573x414.jpg" alt="Atterie">
 									        <figcaption class="dark"><a href="#">
 									          <h2>Atterie</h2>
-									          <em>Prendas únicas, totalmente hechas a mano,sobre diseños propios</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="atterie_text">Prendas únicas, totalmente hechas a mano,sobre diseños propios</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
 									      <figure><img src="images/brindis-573x414.jpg" alt="Brindis">
 									        <figcaption class="light-blue"><a href="#">
 									          <h2>Brindis</h2>
-									          <em>Eventos especiales y servicios de catering</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="brindis_text">Eventos especiales y servicios de catering</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>								  
 									  </ul>
@@ -257,28 +257,28 @@
 									      <figure><img src="images/gamers-573x414.jpg" alt="gamers">
 									        <figcaption class="yellow"><a href="#">
 									          <h2>Gamers</h2>
-									          <em>Juegos html5 gratis desde tu celular</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="gamers_text">Juegos html5 gratis desde tu celular</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
 									      <figure><img src="images/astros-573x414.jpg" alt="Astros">
 									        <figcaption class="turquaz"><a href="#">
 									          <h2>Astros</h2>
-									          <em>Conoc&eacute; todo acerca de astrologia, tarot y signos</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="astros_text">Conoc&eacute; todo acerca de astrologia, tarot y signos</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/appTel-573x414.jpg" alt="Chat">
 									        <figcaption class="blue"><a href="#">
 									          <h2>Chat</h2>
-									          <em>Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="chat_text">Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/super-woman-860x408.jpg" alt="Super-woman">
 									        <figcaption class="blue"><a href="#">
 									          <h2>Super Woman</h2>
-									          <em>Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+									          <em data-translate="super_woman_text">Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>									    								    
 									  </ul>
@@ -292,7 +292,7 @@
 										      <figure><img src="images/biondi-830x761.jpg" alt="bodegas-biondi">
 										        <figcaption class="green"><a href="#">
 										          <h2>Bodegas Biondi</h2>
-										          <em>Conozca todos nuestros vinos de primera calidad</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
+										          <em data-translate="biondi_text">Conozca todos nuestros vinos de primera calidad</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 										      </figure>
 										    </li>  
 										</ul>
@@ -313,8 +313,8 @@
 	<div id="ser" class="services">
 		<div class="container">
 			<div class="services-head text-center">
-				<h3 lang="es">Nuestros Servicios</h3>
-				<p lang="es">Te asesoramos de forma personalizada y te brindamos una soluci&oacute;n a la medida de tus necesidades</p>
+				<h3 data-translate="h3_servicios_text">Nuestros Servicios</h3>
+				<p data-translate="p_servicios_text">Te asesoramos de forma personalizada y te brindamos una soluci&oacute;n a la medida de tus necesidades</p>
 			</div>
 			<!-----start-services-grids---->
 			<div class="services-grids">
@@ -323,8 +323,8 @@
 						<a class="top-icon6"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4 lang="es">Desarrollo Web</h4>
-						<p lang="es" >Creamos p&aacute;ginas web innovadoras y adaptadas a los dispositivos m&oacute;viles. Nuestros desarrollos web est&aacute;n orientados a una implementaci&oacute;n de f&aacute;cil navegaci&oacute;n y optimizados para buscadores</p>
+						<h4 data-translate="h4_servicios_desarrollo_web">Desarrollo Web</h4>
+						<p data-translate="p_servicios_desarrollo_web">Creamos p&aacute;ginas web innovadoras y adaptadas a los dispositivos m&oacute;viles. Nuestros desarrollos web est&aacute;n orientados a una implementaci&oacute;n de f&aacute;cil navegaci&oacute;n y optimizados para buscadores.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -333,8 +333,8 @@
 						<a class="top-icon3"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4 lang="es">Dise&ntilde;o web</h4>
-						<p lang="es">Dise&ntilde;amos e implementamos desde sitios simples hasta
+						<h4 data-translate="h4_servicios_disenio_web">Dise&ntilde;o web</h4>
+						<p data-translate="p_servicios_disenio_web">Dise&ntilde;amos e implementamos desde sitios simples hasta
 							portales complejos, trabajando siempre de acuerdo a las
 							expectativas y presupuesto del cliente.</p>
 					</div>
@@ -345,8 +345,8 @@
 						<a class="top-icon2"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4 lang="es">Dise&ntilde;o grafico</h4>
-						<p lang="es">Ofrecemos dise&ntilde;o y producci&oacute;n de los elementos b&aacute;sicos para el posicionamiento de su empresa en el mercado. Dise&ntilde;o de marca: logotipo e isologotipo, papeler&iacute;a institucional, tarjetas personales, folleter&iacute;a, carpeta institucional</p>
+						<h4 data-translate="h4_servicios_disenio_grafico">Dise&ntilde;o grafico</h4>
+						<p data-translate="p_servicios_disenio_grafico">Ofrecemos dise&ntilde;o y producci&oacute;n de los elementos b&aacute;sicos para el posicionamiento de su empresa en el mercado. Dise&ntilde;o de marca: logotipo e isologotipo, papeler&iacute;a institucional, tarjetas personales, folleter&iacute;a, carpeta institucional.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -355,8 +355,8 @@
 						<a class="top-icon4"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4 lang="es">Desarrollo de Aplicaciones</h4>
-						<p lang="es">Desarrollamos aplicaciones m&oacute;viles y plataformas web.
+						<h4 data-translate="h4_servicios_desarrollo_app">Desarrollo de Aplicaciones</h4>
+						<p data-translate="p_servicios_desarrollo_app">Desarrollamos aplicaciones m&oacute;viles y plataformas web.
 							Nuestra principal cualidad est&aacute; en el desarrollo de software de
 							movilidad a medida de las necesidades del cliente.</p>
 					</div>
@@ -367,8 +367,8 @@
 						<a class="top-icon5"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4>Hosting</h4>
-						<p lang="es">Nuestro servicio de hosting para mails y p&aacute;ginas web,
+						<h4 data-translate="h4_servicios_hosting">Hosting</h4>
+						<p data-translate="p_servicios_hosting">Nuestro servicio de hosting para mails y p&aacute;ginas web,
 							garantizan m&aacute;xima seguridad y velocidad. Los planes disponibles
 							se adaptan a las necesidades de tu empresa.</p>
 					</div>
@@ -379,8 +379,8 @@
 						<a class="top-icon1"><span> </span></a>
 					</div>
 					<div class="col-md-9 services-grid-right">
-						<h4>Email Marketing</h4>
-						<p lang="es">Brindamos una herramienta muy f&aacute;cil de utilizar para el env&iacute;o de Newsletters. 
+						<h4 data-translate="h4_servicios_email_marketing">Email Marketing</h4>
+						<p data-translate="p_servicios_email_marketing">Brindamos una herramienta muy f&aacute;cil de utilizar para el env&iacute;o de Newsletters. 
 						Organiza tus campa&ntilde;as de email marketing con informaci&oacute;n de productos y promociones, fidelizando a tus clientes y contactos.</p>
 					</div>
 					<div class="clearfix"></div>
@@ -402,10 +402,10 @@
 				</div>
 				<div class="col-md-5 about-grid-right">
 					<div class="about-head">
-						<h4 lang="es">Acerca de</h4>
-						<h2 lang="es">nosotros</h2>
+						<h4 data-translate="h4_acerca_de">Acerca de</h4>
+						<h2 data-translate="h2_nosotros">nosotros</h2>
 					</div>
-					<p lang="es">Nos especializamos en el desarrollo de software, servicios y
+					<p data-translate="p_acerca_nos_text">Nos especializamos en el desarrollo de software, servicios y
 						soluciones relacionadas al &aacute;mbito de internet y ofrecemos una gama
 						de servicios basados en la aplicaci&oacute;n de nuevas tecnolog&iacute;as. La
 						compa&ntilde;&iacute;a est&aacute; conformada por un equipo de profesionales que cuenta
@@ -413,8 +413,8 @@
 						software sobre plataformas web, dise&ntilde;o de p&aacute;ginas web responsivas,
 						email marketing, servicio de hosting y marketing en internet.</p>
 					<hr>
-					<h6>Filosof&iacute;a</h6>
-					<p>Escuchar a nuestros clientes, satisfaciendo sus necesidades
+					<h6 data-translate="h6_acerca_de_filosofia">Filosof&iacute;a</h6>
+					<p data-translate="p_acerca_de_filosofia">Escuchar a nuestros clientes, satisfaciendo sus necesidades
 						y brindando un eficaz servicio de soporte técnico. Atender
 						personalizadamente, asesorando y capacitando para responder a las
 						necesidades del que adquiere nuestros productos y servicios.
@@ -432,8 +432,8 @@
 		<div id="clientes" class="portfolio-box-main">
 			<div class="container">
 				<div class="portfolio-head text-center">
-					<h3>Clientes</h3>
-					<span>Algunos de los clientes que confiaron en nosotros</span>
+					<h3 data-translate="h3_clientes">Clientes</h3>
+					<span data-translate="span_clientes">Algunos de los clientes que confiaron en nosotros</span>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -448,42 +448,42 @@
 	<div id="contact" class="contact">
 		<div class="container">
 			<div class="contact-head text-center">
-				<h3>Contacto</h3>
-				<span>Contactáte con nosotros para diseñar tu sitio web,
+				<h3 data-translate="h3_contacto">Contacto</h3>
+				<span data-translate="span_contacto">Contactáte con nosotros para diseñar tu sitio web,
 					desarrollar software o crear aplicaciones a medida.</span>
-				<p>"O bien, podés completar el formulario para pedir tu
+				<p data-translate="p_contacto">"O bien, podés completar el formulario para pedir tu
 					presupuesto personalizado."</p>
 			</div>
 			<div class="contact-grids">
 				<div class="col-md-7 contact-left">
-					<h4>Envie un mail</h4>
+					<h4 data-translate="h4_envie_email">Envie un mail</h4>
 					<form role="form" id="contactForm" data-toggle="validator" class="shake">
 						<div class="form-group">
-							<input type="text" class="form-control" id="name" placeholder="Nombre" required>
+							<input data-translate="input_nombre" type="text" class="form-control" id="name" placeholder="Nombre" required>
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" id="email" placeholder="Email" required>
+							<input data-translate="input_mail" type="email" class="form-control" id="email" placeholder="Email" required>
 							<div class="help-block with-errors"></div> 
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" id="tel" placeholder="Telefono" required>
+							<input data-translate="input_tel" type="text" class="form-control" id="tel" placeholder="Telefono" required>
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
-							<textarea id="message" class="form-control" rows="5" placeholder="Mensaje" required>Mensaje </textarea>
+							<textarea data-translate="input_mensaje" id="message" class="form-control" rows="5" required>Mensaje </textarea>
 							<div class="help-block with-errors"></div>
 						</div>
         				<div id="msgSubmit" class="h3 text-center hidden"></div>
-    					<input type="submit" id="form-submit" value="Enviar" />
+    					<input data-translate="input_enviar" type="submit" id="form-submit" value="Enviar" />
     					
 					</form>
 				</div>
 				<div class="col-md-5 contact-right">
-					<h4>Info de contacto</h4>
+					<h4 data-translate="h4_info_contact">Info de contacto</h4>
 					<br />
 					<p>
-						<span class="icon1"> </span><a href="mailto:@example.com">info@website.com</a>
+						<span class="icon1"> </span><a href="mailto:@example.com">info@msgagency.com.ar</a>
 					</p>
 					<br />
 					<p>
@@ -517,7 +517,7 @@
 		<div class="container">
 			<div class="footer-right">
 				<p>
-					Copyright &copy; 2016 Ideas_Agency . All Rights Reserved
+					Copyright &copy; 2016 MSGagency . All Rights Reserved
 				</p>				
 				<a href="#" id="toTop" style="display: block;"> <span
 					id="toTopHover" style="opacity: 1;"> </span></a>

@@ -39,9 +39,6 @@ h1.logo{
 	margin-top: 0;
 }
 /*----navbar-nav----*/
-.top-nav ul li a.lang-Changer-es {
-    padding: 0.2em 0em 0.2em 1.9em;
-}
 .top-nav ul li a.lang-Changer-en {
     padding: 0.2em 0em;
 }
@@ -153,7 +150,6 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('../images/nav-icon.png') no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -167,6 +163,31 @@ nav a#pull {
 	.top-nav ul li a {
 		color: #2C3E50;
 		padding: 0em 0;
+	}
+}
+@media (min-width : 768px) {
+	.top-nav ul li a.lang-Changer-es {
+    	padding: 0.2em 0em 0.2em 1.9em;
+	}
+	li#langChanger {
+    	bottom: 2px;
+	}
+	.navbar .container {
+    	width: 100%;
+	}
+}
+@media (min-width : 768px) and (max-width: 960px) {
+	.top-nav ul li a.lang-Changer-es {
+    	padding-left: 0.5em;
+	}
+	.logo a{
+		margin-top: 1.3em;
+	}
+	h1.logo {
+    	width: 19%;
+	}
+	.top-nav ul li a {
+		padding: 0.2em 0.5em;
 	}
 }
 /*Smartphone*/
@@ -1319,10 +1340,14 @@ span.default_line {
  .callbacks_tabs {
 	left: 46%;
  }
+}
+@media (min-width:878px){
+	.top-nav ul li a {
+		padding: 0.2em 1.2em;
+	}
 } 
 @media (max-width:1024px){
  .top-nav ul li a {
-	padding: 0.2em 1.2em;
 	font-size: 0.8125em;
  }
  .slide-text-info h1 {
@@ -1385,7 +1410,7 @@ span.default_line {
 }
 @media (max-width:800px){
 	 .top-nav ul li a {
-		padding: 0.2em 0.8em;
+		padding: 0.2em 0.5em;
 	 }
 	 .slide-text-info h1 {
 		font-size: 2em;
