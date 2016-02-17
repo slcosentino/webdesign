@@ -1,0 +1,27 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Portal Gamers",
+	"p_seccion_1_title":"-Diseño integro del portal de juegos.",
+	"p_seccion_1_primero":"",
+	"p_seccion_1_segundo":"",
+	"h3_seccion_3_title":"portal<span> / gamers</span>",
+	"p_seccion_3_title":"<span>cliente</span> - dynamonet",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo":"La necesidad de una versi&oacute;n m&oacute;vil apareci&oacute; para el portal de juegos como complemento de una serie de aplicaciones. El proceso de juego on line tiene que ser dinamico y rapido de utilizaci&oacute;n. Sobre todo que nos translade a los años 80 y la estetica ARCADE.",	
+	"h3_seccion_4_title":"generaci&oacute;n<span> / iconos</span>",
+	"p_seccion_4_title":"<span>generamos los iconos a medida</span>",
+	"p_seccion_4_subtitle":"<span>objetivo</span>",
+	"p_seccion_4_parrafo":"Sin complicaciones para los usuarios. La idea es llegar al juego en el menor n&uacute;mero de pasos. Una vez en el juego se desarrolla a pantalla completa del dispositivo. El men&uacute; tiene los juegos y sus categorias para hacerlo m&aacute;s dinamico. Te indica el nombre de usuario y puntaje.",	
+	"h3_seccion_5_text":"Muchas<span> Gracias</span>",
+	"span_seccion_5_text":"  Pasi&oacute;n por el arcade  ",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

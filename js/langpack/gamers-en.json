@@ -1,0 +1,32 @@
+{
+	"MenuInicio": "Home<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Our services<span></span>",
+	"MenuQuienes": "About us<span></span>",
+	"MenuClientes": "Customers<span></span>",
+	"MenuContactenos": "Contact us<span></span>",
+	"h3_seccion_1_title":"Gamers Site",
+	"p_seccion_1_title":"-Integral design of the gaming site.",
+	"p_seccion_1_primero":"",
+	"p_seccion_1_segundo":"",
+	"h3_seccion_3_title":"Gamers<span> / site</span>",
+	"p_seccion_3_title":"<span>customer</span> - dynamonet",
+	"p_seccion_3_subtitle":"<span>Challenge</span>",
+	"p_seccion_3_parrafo":"The need for a mobile version appeared for gaming portal in addition to a number of applications. The process of online gaming has to be dynamic and fast to use . Especially that translade us to the 80s and aesthetics ARCADE.",
+	"h3_seccion_4_title":"Generation<span> / icons</span>",
+	"p_seccion_4_title":"<span>generate custom icons</span>",
+	"p_seccion_4_subtitle":"<span>objetive</span>",
+	"p_seccion_4_parrafo":"No hassle for users. The idea is to play in the fewest steps. Once the game is played in full- screen device. The menu has games and categories to make it more dynamic . It tells you the username and score.",
+	"h3_seccion_5_text":"Thank<span> You</span>",
+	"span_seccion_5_text":"  Passion for arcade  ",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

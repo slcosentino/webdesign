@@ -3,14 +3,8 @@ var app = {
 	lang: null,
 		
 	initialize : function() {
-		this.lang = new Lang();
-		this.lang.dynamic('en', 'js/langpack/en.json');
-		this.lang.init({
-			defaultLang: 'es'
-		});
 
-		
-		this.bindEvents();
+		$('[data-translate]').jqTranslate('index', { path:'js/langpack'});
 
 		$(function() {
 			$(".scroll").click(function(event) {
@@ -79,3 +73,5 @@ var app = {
 };
 
 app.initialize();
+
+
