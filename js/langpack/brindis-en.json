@@ -1,0 +1,31 @@
+{
+	"MenuInicio": "Home<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Our services<span></span>",
+	"MenuQuienes": "About us<span></span>",
+	"MenuClientes": "Customers<span></span>",
+	"MenuContactenos": "Contact us<span></span>",
+	"h3_seccion_1_title":"Brindis",
+	"p_seccion_1_title":"-Integral design of the website.",
+	"p_seccion_1_primero":"",
+	"p_seccion_1_segundo":"",
+	"h3_seccion_3_title":"<span>web / brindis</span>",
+	"p_seccion_3_title":"<span>customer</span> - brindis",
+	"p_seccion_3_subtitle":"<span>Challenge</span>",
+	"p_seccion_3_parrafo":"The need for a website that represents the spirit of the roast in the old continent. Toast installed in Belgium, is a restaurant that transmits the flavors of our country in the best way.",
+	"h3_seccion_4_title":"<span>Cheff</span>",
+	"p_seccion_4_title":"Maxim Nuyts",
+	"p_seccion_4_subtitle":"<span>objetive</span>",
+	"p_seccion_4_parrafo_1":"Each image was retouched through memorable feelings that lead us to the universe to represent. Thus an appropriate climate for the product to sell is generated.",
+	"p_seccion_4_parrafo_2":"The chef and his history in these projects plays a leading role in promoting the product . We seek the best way to give it the importance it requires.",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

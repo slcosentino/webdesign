@@ -1,0 +1,26 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Brindis",
+	"p_seccion_1_title":"-Diseño integro del sitio web.",
+	"p_seccion_1_primero":"",
+	"p_seccion_1_segundo":"",
+	"h3_seccion_3_title":"<span> web / brindis</span>",
+	"p_seccion_3_title":"<span>cliente</span> - brindis",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo":"La necesidad de una  web que represente el esp&iacute;ritu del asado en el viejo continente. Brindis instalado en Belgica, es un restaurant que transmite los sabores de nuestro pa&iacute;s de la mejor manera.",	
+	"h3_seccion_4_title":"<span>Cheff</span>",
+	"p_seccion_4_title":"Maxim Nuyts",
+	"p_seccion_4_subtitle":"<span>objetivo</span>",
+	"p_seccion_4_parrafo_1":"Cada im&aacute;gen fue retocada a trav&eacute;s de sensaciones memorables que nos llevan al universo a representar. De esta manera se genera un clima apropiado para el producto a vender.",
+	"p_seccion_4_parrafo_2":"El cheff y su historia en estos proyectos cumple un rol principal a la hora de promocionar el producto. Buscamos la mejor forma de darle la importancia que requiere.",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}
