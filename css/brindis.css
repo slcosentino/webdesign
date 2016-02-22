@@ -17,21 +17,13 @@
 	line-height: 1.8em;
 }
 .brindis-box-main{
-	padding: 1.5em 0 6em 0;
+	padding: 1.5em 0 2em 0;
 }
 
 /*  Seccion 2  */
-.seccion-2 .col-md-12{
-	padding-right: 0;
-    padding-left: 0;
-}
+
 
 /*  Seccion 3  */
-.seccion-3{
-    padding: 8% 0;
-    background: url(../images/brindis-seccion-3-bg.png) no-repeat 0px 0px;
-    background-size: 100% 100%;
-}
 .seccion-3 h3{
 	text-transform: uppercase;
 	color: #000;
@@ -75,9 +67,7 @@ p.parrafo {
 
 /*  Seccion 4  */
 .seccion-4{
-    padding: 12% 0;
-    background: url(../images/brindis-seccion-4-bg.png) no-repeat 0px 0px;
-    background-size: 100% 100%;
+	background-color: #000;
 }
 .seccion-4 h3{
 	text-transform: uppercase;
@@ -89,7 +79,7 @@ p.parrafo {
 }
 .seccion-4 .sin-padding{
 	padding: 0;
-	margin-top: 38%;
+	margin-top: -12%;
 }
 .seccion-4 h3 span{
 	color: #FFF;
@@ -151,21 +141,6 @@ p.parrafo {
 .seccion-5{
 	animation-delay:5s;
 }
-/* Animación con keyframe llamada "latidos" */
-@keyframes latidos {
-    from { transform: none; }
-    50% { transform: scale(1.4); }
-    to { transform: none; }
-}
-/* En la clase corazon vamos a llamar latidos en la animación  */
-.corazon {
-    display: inline-block;
-    font-size: 50px;
-    text-shadow: 0 0 10px #222,1px 1px  0 #450505;
-    color: red;
-    animation: latidos .5s infinite;
-    transform-origin: center;
-}
 
 
 /*  Responsive  */
@@ -185,31 +160,141 @@ p.parrafo {
 		margin-left: 7%;
 	}
 }
-@media (min-width: 840px) and (max-width: 1120px){
-	.seccion-4 h3{
-		font-size: 1.5em;	    
+@media (min-width: 450px) and (max-width: 900px){
+	.seccion-2{
+	    padding: 25% 0;
+	    background: url(../images/brindis-seccion-2-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
 	}
-	.seccion-4 .sin-padding div p.title{
-	    font-size: 0.9em;
+	.seccion-3{
+		background:none;
+		padding: 0;
 	}
-	.seccion-4 p.title2{
-        font-size: 0.9em;
-    }
-    .seccion-4 p.parrafo {
-    	font-size: 0.75em;
-    }	
+	.seccion-3-2{
+		padding: 18% 0;
+	    background: url(../images/brindis-seccion-3-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4 .sin-padding{
+    	margin: 1% 0 3% 0;
+	}
+	.seccion-4-2-2{
+	    padding: 20% 0;
+	    background: url(../images/brindis-seccion-4-bg-2-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4-1{
+	    padding: 15% 0;
+	    background: url(../images/brindis-seccion-4-bg-1-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4-2{
+	    padding: 0;
+	    background: none;
+	}
+	.seccion-5{
+	    padding: 24% 0;
+	    background: url(../images/brindis-seccion-5-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
 }
-@media (min-width: 970px) {
-	.seccion-2 img {
-    	min-height: 367px;
+@media (max-width: 449px) {
+	.seccion-2{
+	    padding: 65% 0;
+	    background: url(../images/brindis-seccion-2-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-3{
+		background:none;
+		padding: 0;
+	}
+	.seccion-3-2{
+	    padding: 71% 0;
+	    background: url(../images/brindis-seccion-3-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4 .sin-padding{
+    	margin: 1% 0 3% 0;
+	}
+	.seccion-4-2-2{
+	    padding: 40% 0;
+	    background: url(../images/brindis-seccion-4-bg-2-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4-1{
+	    padding: 50% 0;
+	    background: url(../images/brindis-seccion-4-bg-1-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}	
+	.seccion-5{
+	    padding: 50% 0;
+	    background: url(../images/brindis-seccion-5-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
 	}
 }
+@media (min-width: 901px) {
+	.seccion-2{
+	    padding: 14% 0;
+	    background: url(../images/brindis-seccion-2-bg-2000x589.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-3{
+	    padding: 5% 0;
+	    background: url(../images/brindis-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4-1{
+	    padding: 12% 0;
+	    background: url(../images/brindis-seccion-4-bg-1-2000x700.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4-2{
+	    padding: 18% 0;
+	    background: url(../images/brindis-seccion-4-bg-2-2000x728.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-5{
+	    padding: 18% 0;
+	    background: url(../images/brindis-seccion-5-bg-2000x790.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+}	
 @media (max-width: 970px) {
-	.seccion-2 img {
-    	min-height: 220px;
-	}
 	.brindis-head {
 		text-align: center;
+	}
+}
+@media (max-width: 900px) {
+	.seccion-3 .col-xs-2{
+		width: 33.33333%;
+	}
+	.seccion-3 .col-xs-4{
+		width: 33.33333%;
+	}
+	.seccion-3 .col-xs-6{
+		width: 33.33333%;
+	}
+	.seccion-3 .col-md-2{
+		width: 33.33333%;
+	}
+	.seccion-3 .col-md-4{
+		width: 33.33333%;
+	}
+	.seccion-3 .col-md-6{
+		width: 33.33333%;
+	}
+	.seccion-3 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+	.seccion-4 .col-xs-1{
+		width: 33.33333%;
+	}
+	.seccion-4 .col-xs-4{
+		width: 33.33333%;
+	}
+	.seccion-4 .col-xs-7{
+		width: 33.33333%;
 	}
 }
 @media (min-width: 700px) and (max-width: 885px){
@@ -222,98 +307,22 @@ p.parrafo {
 	.seccion-3 p.title2{
         font-size: 0.9em;
     }
-    p.parrafo {
-    	font-size: 0.75em;
-    }
-    .seccion-3 .sin-padding {
-        margin-bottom: 15%;
-	}
-}
-@media (min-width: 628px) and (max-width: 840px){
-	.seccion-4 .col-xs-1{
-		width: 5%;
-		padding-right: 0;
-	}
-	.seccion-4 .col-xs-4{
-		width: 45%;
-	}
-	.seccion-4 .col-xs-7{
-		width: 50%;
-	}
-	.seccion-4 h3{
-		font-size: 1.5em;	    
-	}
-	.seccion-4 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-4 p.title2{
-        font-size: 0.9em;
-    }
-    .seccion-4 p.parrafo {
-    	font-size: 0.75em;
-    }
-}
-@media (min-width: 524px) and (max-width: 628px){
-	.seccion-4 .sin-padding{
-		margin-top: 65%;
-	}
-}
-@media (max-width: 628px){
-	.seccion-4 .col-xs-1{
-		width: 5%;
-		padding-right: 0;
-	}
-	.seccion-4 .col-xs-4{
-		width: 45%;
-	}
-	.seccion-4 .col-xs-7{
-		width: 50%;
-	}
-	.seccion-4 h3{
-		font-size: 1em;	    
-	}
-	.seccion-4 .sin-padding div p.title{
-	    font-size: 0.55em;
-	}
 }
 @media (max-width: 700px){
-	.seccion-3 .col-xs-2{
-		width: 0;
-	}
-	.seccion-3 .col-xs-4{
-		width: 50%;
-	}
 	.seccion-3 {
 	    padding: 0;
 	}
 	.seccion-3 h3{
-		font-size: 1.5em;	    
+		font-size: 1em;	    
 	}
 	.seccion-3 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-3 p.title2{
-        font-size: 0.9em;
-    }
-    p.parrafo {
-    	font-size: 0.75em;
-    }
-    .seccion-3 .sin-padding {
-        margin-bottom: 31%;
-	}
-}
-@media (max-width: 524px){
-	.seccion-4 .sin-padding{
-		margin-top: 95%;
+	    font-size: 0.8em;
 	}
 }
 @media (max-width:480px){
 	.brindis-head h3{
 		font-size: 1.3em;
 	 }
-	.seccion-4 {
-	    padding: 0;
-	}
 }
 @media (max-width:320px){
 	.brindis-head p {
