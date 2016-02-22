@@ -53,8 +53,94 @@ var app = {
 			$().UItoTop({
 				easingType : 'easeOutQuart'
 			});
+			
+			$('#contactForm').formValidation({
+				framework: 'bootstrap',
+				icon: {
+					valid: 'glyphicon glyphicon-ok',
+					invalid: 'glyphicon glyphicon-remove',
+					validating: 'glyphicon glyphicon-refresh'
+				},
+				row: {
+					valid: 'field-success',
+					invalid: 'field-error'
+				},				
+				fields: {
+					name: {
+						validators: {
+							notEmpty: {
+								message: 'El campo es obligatorio.'
+							}
+						}
+					},
+					
+					tel: {
+						validators: {
+							notEmpty: {
+								message: 'El campo es obligatorio.'
+							},
+							stringLength: {
+								min: 7,
+								max: 13,
+								message: 'El t&eacute;lefono debe tener entre 7 y 13 n&uacute;meros.'
+							},
+							regexp: {
+								regexp: /^[0-9\s\-()+\.]+$/,
+								message: 'Debe ingresar solo n&uacute;meros.'
+							}
+						}
+					},				
+					 email: {
+						validators: {
+							notEmpty: {
+								message: 'El campo es obligatorio.'
+							},
+							emailAddress: {
+								message: 'El email ingresado es incorrecto.'
+							}
+						}
+					},
+					message: {
+						validators: {
+							notEmpty: {
+								message: 'El campo es obligatorio.'
+							}						
+						}
+					}
+				},
+				addOns: {
+					reCaptcha2: {
+						element: 'captchaContainer',
+						language: 'es',
+						theme: 'dark',
+						siteKey: '6LcV3BcTAAAAALOu96DdhK_7nGq62rbHzLzcfTR2',
+						timeout: 120,
+						message: 'El captcha ingresado no es valido.'
+					}
+				}				
+			})
+			 .on('success.form.fv', function(e) {
+				// Prevent form submission
+				e.preventDefault();
+
+				var $form = $(e.target),
+					fv    = $form.data('formValidation');
+			
+				$.ajax({
+					url: $form.attr('action'),
+					type: 'POST',
+					data: $form.serialize(),
+					success: function(result) {											
+						console.log(result);						
+						$('#contactForm').formValidation('resetForm', true);						
+						FormValidation.AddOn.reCaptcha2.reset('captchaContainer');
+					}
+				});
+			});
 
 		});
+		
+		
 
 	},
 

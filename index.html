@@ -6,7 +6,10 @@
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/formValidation.min.css" rel='stylesheet' type='text/css' />
 	
+		
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,11 +58,9 @@
 	<script src="js/js.cookie.js" charset="utf-8" type="text/javascript"></script>	
 	<script src="js/jqueryTanslator.min.js" charset="utf-8" type="text/javascript"></script>	
 	<script type="text/javascript" src="js/index.js"></script>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-
-	<link rel="stylesheet" href="css/animate.css">
-
-		
+	<script src="js/formValidation.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/reCaptcha2.js"></script>	
 </head>
 <body>
 	<script>
@@ -468,25 +469,32 @@
 			<div class="contact-grids">
 				<div class="col-md-7 contact-left">
 					<h4 data-translate="h4_envie_email">Envie un mail</h4>
-					<form role="form" id="contactForm" data-toggle="validator" class="shake">
+					<form role="form" id="contactForm" method="POST" action="php/form-process.php" data-toggle="validator" class="shake" autocomplete="off">
 						<div class="form-group">
-							<input data-translate="input_nombre" type="text" class="form-control" id="name" placeholder="Nombre" required>
+							<input data-translate="input_nombre" type="text" class="form-control" id="name" name="name" placeholder="Nombre" >
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
-							<input data-translate="input_mail" type="email" class="form-control" id="email" placeholder="Email" required>
+							<input data-translate="input_mail" type="email" class="form-control" id="email" name="email" placeholder="Email">
 							<div class="help-block with-errors"></div> 
 						</div>
 						<div class="form-group">
-							<input data-translate="input_tel" type="text" class="form-control" id="tel" placeholder="Telefono" required>
+							<input data-translate="input_tel" type="text" class="form-control" id="tel" name="tel" placeholder="Telefono" >
 							<div class="help-block with-errors"></div>
 						</div>
 						<div class="form-group">
-							<textarea data-translate="input_mensaje" id="message" class="form-control" placeholder="Mensaje" rows="5" required></textarea>
+							<textarea data-translate="input_mensaje" id="message" name="message" class="form-control" placeholder="Mensaje" rows="5" ></textarea>
 							<div class="help-block with-errors"></div>
-						</div>					
-        				<div id="msgSubmit" class="h3 text-center hidden"></div>
-    					<input data-translate="input_enviar" type="submit" id="form-submit" value="Enviar" />
+						</div>				
+						<div class="form-group">
+							<label class="col-xs-3 control-label"></label>
+							<div class="col-xs-8">
+								<!-- The captcha container -->
+								<div id="captchaContainer"></div>
+							</div>
+						</div>
+        				
+    					<input type="submit" data-translate="input_enviar"  id="form-submit"  value="Enviar"/>
     					
 					</form>
 				</div>
@@ -498,25 +506,25 @@
 					</p>
 					<br />
 					<p>
-						<span class="icon1"> </span>123456789
+						<span class="icon1"> </span>15-3-904-5703
 					</p>
 					<br />
 					<p>
-						<span class="icon3"> </span><label>Office no 1, main road
-							city name- 78</label>
+						<span class="icon3"> </span><label>Lautaro 68,Ciudad Bs As, Argentina</label>
 					</p>
 					<br />
 				<!--Redes sociales comentadas
 					<h4>Siguenos</h4>
-					<br />
+					<br />-->
 					<ul class="list-unstyled list-inline">
-						<li><a class="face" href="#"><span> </span></a></li>
-						<li><a class="drib" href="#"><span> </span></a></li>
+						<li><a class="face" href="http://facebook.com/MSGAgency-736053846531342"><span> </span></a></li>
+						<li><a class="gpluse" href="http://behance.net/MSGAgency"><span></span></a></li>
+						<!--<li><a class="drib" href="#"><span> </span></a></li>
 						<li><a class="twitt" href="#"><span> </span></a></li>
 						<li><a class="sanp" href="#"><span> </span></a></li>
-						<li><a class="gpluse" href="#"><span> </span></a></li>
+						<li><a class="gpluse" href="#"><span> </span></a></li> -->
 					</ul>
-				-->
+				
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -539,8 +547,6 @@
 	<!--//End-footer-->
 	<!--//End-container-->  
 </body>
-	<script type="text/javascript" src="js/validator.min.js"></script>
-	<script type="text/javascript" src="js/form-scripts.js"></script>
-</div>
+
 </html>
 
