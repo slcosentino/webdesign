@@ -266,57 +266,41 @@ p.parrafo {
 }
 @media (max-width: 900px) {
 	.seccion-3 .col-xs-2{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 	.seccion-3 .col-xs-4{
-		width: 33.33333%;
+		width: 83.33333%;
 	}
 	.seccion-3 .col-xs-6{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 	.seccion-3 .col-md-2{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 	.seccion-3 .col-md-4{
-		width: 33.33333%;
+		width: 83.33333%;
 	}
 	.seccion-3 .col-md-6{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 	.seccion-3 .sin-padding {
         margin-bottom: 2%;
         margin-top: 5%;
 	}
 	.seccion-4 .col-xs-1{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 	.seccion-4 .col-xs-4{
-		width: 33.33333%;
+		width: 83.33333%;
 	}
 	.seccion-4 .col-xs-7{
-		width: 33.33333%;
+		width: 8.33333%;
 	}
 }
-@media (min-width: 700px) and (max-width: 885px){
-	.seccion-3 h3{
-		font-size: 1.5em;	    
-	}
-	.seccion-3 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-3 p.title2{
-        font-size: 0.9em;
-    }
-}
+
 @media (max-width: 700px){
 	.seccion-3 {
 	    padding: 0;
-	}
-	.seccion-3 h3{
-		font-size: 1em;	    
-	}
-	.seccion-3 .sin-padding div p.title{
-	    font-size: 0.8em;
 	}
 }
 @media (max-width:480px){

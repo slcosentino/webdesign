@@ -1728,6 +1728,15 @@ span.default_line {
 .text-success{
     color: #F4BB36;
 }
+#contactForm .help-block{
+	color: #F4BB36;
+}
+.has-feedback.field-error .fv-icon-no-label{
+	color: #FF0000;
+}
+.has-feedback.field-success .fv-icon-no-label{
+	color: #3CB300;
+}
 
 /*--Portfolio Nuevo--*/
 
@@ -1896,8 +1905,77 @@ main{ padding:0 50px;}
 @media (min-width: 992px){
 	div.portfolios .portfolio-info .container,div#about .container {
     	width: 100%;
+	}		
+}
+@media (min-width: 600px) and (max-width: 992px){
+	.contacto-captcha .col-md-3{
+		width: 25%;
+		padding-right: 0;
+		padding-left: 0;
 	}
-}  
+	.contacto-captcha .col-md-6{
+		width: 50%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-3{
+		width: 25%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-6{
+		width: 50%;
+		padding-right: 0;
+		padding-left: 0;		
+	}		
+}
+@media (min-width: 451px) and (max-width: 599px){
+	.contacto-captcha .col-md-3{
+		width: 20%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-md-6{
+		width: 80%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-3{
+		width: 20%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-6{
+		width: 80%;
+		padding-right: 0;
+		padding-left: 0;		
+	}		
+}
+@media (max-width: 450px){
+	.contacto-captcha .col-md-3{
+		width: 5%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-md-6{
+		width: 90%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-3{
+		width: 5%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.contacto-captcha .col-xs-6{
+		width: 90%;
+		padding-right: 0;
+		padding-left: 0;		
+	}
+	.contact-right p label {
+       width: 38%;
+	}			
+}    
 @media (min-width: 887px) and (max-width: 988px){
 	div.portfolios .portfolio-info .container{
     	width: 70%;

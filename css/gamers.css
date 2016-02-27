@@ -23,17 +23,9 @@
 }
 
 /*  Seccion 2  */
-.seccion-2 .col-md-12{
-	padding-right: 0;
-    padding-left: 0;
-}
+
 
 /*  Seccion 3  */
-.seccion-3{
-    padding: 10% 0;
-    background: url(../images/gamers-seccion-3-bg.png) no-repeat 0px 0px;
-    background-size: 100% 100%;
-}
 .seccion-3 h3{
 	text-transform: uppercase;
 	color: #382818;
@@ -48,7 +40,7 @@
 }
 .seccion-3 .sin-padding{
 	padding: 0;
-	margin-bottom: 10%;
+	margin-bottom: 14%;
 }
 .seccion-3 h3 span{
 	color: #f0b978;
@@ -80,11 +72,6 @@ p.parrafo {
 }
 
 /*  Seccion 4  */
-.seccion-4{
-    padding: 14% 0;
-    background: url(../images/gamers-seccion-4-bg.png) no-repeat 0px 0px;
-    background-size: 100% 100%;
-}
 .seccion-4 h3{
 	text-transform: uppercase;
 	color: #382818;
@@ -211,132 +198,7 @@ p.parrafo {
 	}
 	.seccion-4 .sin-padding div p.title{
 	    font-size: 0.9em;
-	}
-	.seccion-4 p.title2{
-        font-size: 0.9em;
-    }
-    .seccion-4 p.parrafo {
-    	font-size: 0.75em;
-    }	
-}
-@media (min-width: 970px) {
-	.seccion-2 img {
-    	min-height: 367px;
-	}
-}
-@media (max-width: 970px) {
-	.seccion-2 img {
-    	min-height: 220px;
-	}
-}
-@media (min-width: 630px) and (max-width: 970px){
-	.seccion-5 h3{
-		font-size: 2.5em;
-	    margin-top: 8%;
-	}
-	.seccion-5 p {
-	    font-size: 30px;
-	    margin-bottom: 18%;
-	}
-	.corazon{
-		font-size: 40px;
-	}
-}
-@media (min-width: 700px) and (max-width: 885px){
-	.seccion-3 h3{
-		font-size: 1.5em;	    
-	}
-	.seccion-3 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-3 p.title2{
-        font-size: 0.9em;
-    }
-    p.parrafo {
-    	font-size: 0.75em;
-    }
-    .seccion-3 .sin-padding {
-        margin-bottom: 15%;
-	}
-}
-@media (min-width: 628px) and (max-width: 840px){
-	.seccion-4 .col-xs-1{
-		width: 5%;
-	}
-	.seccion-4 .col-xs-4{
-		width: 45%;
-	}
-	.seccion-4 .col-xs-7{
-		width: 50%;
-	}
-	.seccion-4 h3{
-		font-size: 1.5em;	    
-	}
-	.seccion-4 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-4 p.title2{
-        font-size: 0.9em;
-    }
-    .seccion-4 p.parrafo {
-    	font-size: 0.75em;
-    }
-}
-@media (max-width: 630px){
-	.seccion-5 h3{
-		font-size: 1.5em;
-	    margin-top: 12%;
-	}
-	.seccion-5 p {
-	    font-size: 15px;
-	    margin-bottom: 25%;
-	}
-	p .corazon {
-		font-size: 25px;
-	}
-}
-@media (max-width: 628px){
-	.seccion-4 .col-xs-1{
-		width: 5%;
-	}
-	.seccion-4 .col-xs-4{
-		width: 45%;
-	}
-	.seccion-4 .col-xs-7{
-		width: 50%;
-	}
-	.seccion-4 h3{
-		font-size: 1em;	    
-	}
-	.seccion-4 .sin-padding div p.title{
-	    font-size: 0.55em;
-	}
-}
-@media (max-width: 700px){
-	.seccion-3 .col-xs-2{
-		width: 0;
-	}
-	.seccion-3 .col-xs-4{
-		width: 50%;
-	}
-	.seccion-3 {
-	    padding: 5% 0;
-	}
-	.seccion-3 h3{
-		font-size: 1.5em;	    
-	}
-	.seccion-3 .sin-padding div p.title{
-	    font-size: 0.9em;
-	}
-	.seccion-3 p.title2{
-        font-size: 0.9em;
-    }
-    p.parrafo {
-    	font-size: 0.75em;
-    }
-    .seccion-3 .sin-padding {
-        margin-bottom: 31%;
-	}
+	}	
 }
 @media (max-width:480px){
 	.gamers-head h3{
@@ -353,4 +215,188 @@ p.parrafo {
 	.gamers-head p {
 		font-size: 0.8125em;
 	}
+}
+@media (min-width: 450px) and (max-width: 900px){
+	.seccion-2{
+	    padding: 25% 0;
+	    background: url(../images/gamers-seccion-2-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-3{
+		background-color: #E7B824;
+	}
+	.seccion-3-2{
+		padding: 25% 0;
+	    background: url(../images/gamers-seccion-3-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4{
+		background-color: #000;
+	}
+	.seccion-4-2{
+		padding: 25% 0;
+	    background: url(../images/gamers-seccion-4-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}		
+	.seccion-5{
+		background-color: #000;
+	}
+	.seccion-5-2{
+		padding: 30% 0;
+	    background: url(../images/gamers-seccion-5-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}		
+}
+@media (max-width: 449px) {
+	.seccion-2{
+	    padding: 65% 0;
+	    background: url(../images/gamers-seccion-2-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-3{
+		background-color: #E7B824;
+	}
+	.seccion-3-2{
+	    padding: 71% 0;
+	    background: url(../images/gamers-seccion-3-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4{
+		background-color: #000;
+	}
+	.seccion-4-2{
+		padding: 70% 0;
+	    background: url(../images/gamers-seccion-4-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-5{
+		background-color: #000;
+	}
+	.seccion-5-2{
+		padding: 70% 0;
+	    background: url(../images/gamers-seccion-5-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}			
+}
+@media (min-width: 901px) {
+	.seccion-2{
+	    padding: 14% 0;
+	    background: url(../images/gamers-seccion-2-bg-2000x589.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-3{
+	    padding: 5% 0;
+	    background: url(../images/gamers-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4{
+	    padding: 12% 0;
+	    background: url(../images/gamers-seccion-4-bg-2000x728.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-5{
+	    padding: 7% 0;
+	    background: url(../images/gamers-seccion-5-bg-2000x790.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}			
+}
+@media (max-width: 900px) {
+	.seccion-3 .col-xs-2{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-xs-4{
+		width: 83.33333%;
+	}
+	.seccion-3 .col-xs-6{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-md-2{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-md-4{
+		width: 83.33333%;
+	}
+	.seccion-3 .col-md-6{
+		width: 8.33333%;
+	}
+	.seccion-3 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+	.seccion-4 .col-md-1{
+		width: 8.33333%;
+	}
+	.seccion-4 .col-md-4{
+		width: 83.33333%;
+	}
+	.seccion-4 .col-md-7{
+		width: 8.33333%;
+	}	
+	.seccion-4 .col-xs-1{
+		width: 8.33333%;
+	}
+	.seccion-4 .col-xs-4{
+		width: 83.33333%;
+	}
+	.seccion-4 .col-xs-7{
+		width: 8.33333%;
+	}
+	.seccion-4 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+	.seccion-5 .col-md-8{
+		width: 100%;
+	}
+	.seccion-5 .col-md-4{
+		width: 0%;
+	}
+	.seccion-5 .col-xs-8{
+		width: 100%;
+	}
+	.seccion-5 .col-xs-4{
+		width: 0%;
+	}
+	.seccion-5 p{
+        margin-bottom: 5%;
+	}
+	.seccion-5 h3{
+        margin-top: 0;
+        color: #E52323;
+	}
+}
+@media (max-width: 700px){
+	.seccion-3 {
+	    padding: 0;
+	}
+}
+@media (min-width: 475px) and (max-width: 620px){
+	.seccion-5 h3{
+		font-size: 3em;
+	}
+	.seccion-5 p {
+		font-size: 32px;
+	}
+	.corazon{
+		font-size: 40px;
+	}
+}
+@media (max-width: 474px){
+	.seccion-5 h3{
+		font-size: 2em;
+	}
+	.seccion-5 p {
+		font-size: 22px;
+	}
+	.corazon{
+		font-size: 30px;
+	}
+}
+@media (max-width: 460px){
+	.seccion-4 h3{
+		font-size: 1.7em;	    
+	}
+	.seccion-4 .sin-padding div p.title{
+	    font-size: 1em;
+	}	
 }
