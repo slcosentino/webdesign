@@ -1177,7 +1177,7 @@ span.default_line {
 .contact-left input[type="text"],.contact-left textarea,.contact-left input[type="email"]{
 	color:#FFF;
 	font-size:1em;
-	padding:0.8em;
+	padding:0em;
 	background:none;
 	width:100%;
 	margin:10px 0;
@@ -1486,6 +1486,9 @@ span.default_line {
   span.pipe_lang{
 	display: none;
   }
+  .home-portfolio ul {
+   	padding-left: 0;
+  }
 }
 @media (max-width:640px){
  .slide-text-info h1 {
@@ -1744,7 +1747,8 @@ span.default_line {
 }
 .home-portfolio ul li {
     width: 33.33333%;
-    float: left;
+    float: left;    
+	list-style: none;
 }
 .home-portfolio ul li.double {
     width: 50%;
@@ -1891,6 +1895,9 @@ main{ padding:0 50px;}
 @media (min-width: 992px){
 	div.portfolios .portfolio-info .container,div#about .container {
     	width: 100%;
+	}
+	.home-portfolio ul {
+    	padding-left: 0;
 	}		
 }
 @media (min-width: 600px) and (max-width: 992px){
