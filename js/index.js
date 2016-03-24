@@ -7,6 +7,19 @@ var app = {
 		$('[data-translate]').jqTranslate('index', { path:'js/langpack'});
 
 		$(function() {
+			$(".lang-Changer-es").click(function(event) {
+				$('[data-translate]').jqTranslate('index', { forceLang : 'es',path:'js/langpack' }); return false;
+				$('#contactForm').formValidation('setLocale', 'es_ES');
+				$('#contactForm').formValidation.reCaptcha2.language('es');				
+			});
+			$(".lang-Changer-en").click(function(event) {
+				$('[data-translate]').jqTranslate('index', { forceLang : 'en',path:'js/langpack' }); return false;
+				$('#contactForm').formValidation('setLocale', 'en_US');
+				$('#contactForm').formValidation.reCaptcha2.language('en');
+			});
+		});
+
+		$(function() {
 			$(".scroll").click(function(event) {
 				event.preventDefault();
 				$('html,body').animate({

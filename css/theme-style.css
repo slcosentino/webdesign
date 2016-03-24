@@ -1281,6 +1281,19 @@ span.default_line {
 .contact-grids{
 	margin-top:2em;
 }
+.modal-dialog {    
+    margin: 132px;
+}
+.close {
+	font-size: 5em;
+}
+.modal-header .close {
+    margin-top: -100%;
+}
+.modal.bootstrap-dialog .bootstrap-dialog-message {
+    font-size: 2em;
+}
+
 /*-----start-footer----*/
 .footer{
 	background:#1E1E1E;
@@ -1709,33 +1722,6 @@ span.default_line {
 	    width: 50%;
 	    float: left;
 	}
-}
-.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
-    color: #F4BB36;
-}
-.has-error .form-control:focus,.has-error .form-control {
-    border-color: #F4BB36;
-    box-shadow: none;
-}
-.form-control:focus {
-    border-color: #F4BB36;
-    outline: 0;
-    box-shadow: none;
-}
-.text-danger {
-    color: #F4BB36;
-}
-.text-success{
-    color: #F4BB36;
-}
-#contactForm .help-block{
-	color: #F4BB36;
-}
-.has-feedback.field-error .fv-icon-no-label{
-	color: #FF0000;
-}
-.has-feedback.field-success .fv-icon-no-label{
-	color: #3CB300;
 }
 
 /*--Portfolio Nuevo--*/
