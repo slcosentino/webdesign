@@ -218,9 +218,7 @@ p.parrafo {
 }
 @media (min-width: 450px) and (max-width: 900px){
 	.seccion-2{
-	    padding: 25% 0;
-	    background: url(../images/gamers-seccion-2-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/gamers-seccion-2-bg-900x600.jpg);
 	}
 	.seccion-3{
 		background-color: #E7B824;
@@ -249,9 +247,7 @@ p.parrafo {
 }
 @media (max-width: 449px) {
 	.seccion-2{
-	    padding: 65% 0;
-	    background: url(../images/gamers-seccion-2-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/gamers-seccion-2-bg-450x600.jpg);
 	}
 	.seccion-3{
 		background-color: #E7B824;
@@ -279,11 +275,6 @@ p.parrafo {
 	}			
 }
 @media (min-width: 901px) {
-	.seccion-2{
-	    padding: 14% 0;
-	    background: url(../images/gamers-seccion-2-bg-2000x589.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
-	}
 	.seccion-3{
 	    padding: 5% 0;
 	    background: url(../images/gamers-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;

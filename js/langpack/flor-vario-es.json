@@ -1,0 +1,25 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Florencia Vario",
+	"p_seccion_1_title":"-Diseño Identidad corporativa.",
+	"p_seccion_1_primero":"A trav&eacute;s de la informaci&oacute;n y la indagaci&oacute;n que realizamos nos centramos en el diseño de identidad para Florencia Vario - Servicios de Moda- , pensamos una marca eficaz, limpia, fuerte y f&aacute;cil de reconocer. Sab&iacute;amos que ten&iacute;a que ser divertida ya que apunta a un p&uacute;blico joven y atrevido.",
+	"p_seccion_1_segundo":"El proceso de diseño fue basado en 3 par&aacute;metros: sofisticado, divertida y emocional. Caracter&iacute;sticas que vimos reflejadas en el p&uacute;blico objetivo de la marca. Tiene que ser una identidad actual y sorprendente.",
+	"h3_seccion_3_title":"<span>Branding / Florencia Vario</span>",
+	"p_seccion_3_title":"<span>cliente</span> - Florencia Vario",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo":"Emocional. As&iacute; es como empezamos a generar la identidad corporativa para Florencia Vario,agencia de publicidad especializada en moda. La marca est&aacute; orientada a los j&oacute;venes que se interesan en el mundo de la moda.",
+	"p_seccion_5_subtitle":"<span>objetivo</span>",
+	"p_seccion_5_parrafo":"Fue generar una imagen sofisticada, fuerte, vibrante llena de emotividad. En donde la velocidad y el v&eacute;rtigo sean protagonistas. Los colores intensos refuerzan nuestra esta idea de juventud. Las diagonales nos dan esa velocidad y es dinamismo que buscamos para la marca. Generamos una composici&oacute;n de formas, colores y espacios que hablan por s&iacute; mismos en cada uno de sus proyectos.",
+	"h3_seccion_6_text_muchas":"Muchas",
+	"h3_seccion_6_text_grax":"Gracias",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

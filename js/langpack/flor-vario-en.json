@@ -1,0 +1,30 @@
+{
+	"MenuInicio": "Home<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Our services<span></span>",
+	"MenuQuienes": "About us<span></span>",
+	"MenuClientes": "Customers<span></span>",
+	"MenuContactenos": "Contact us<span></span>",
+	"h3_seccion_1_title":"Florencia Vario",
+	"p_seccion_1_title":"-Corporate identity design.",
+	"p_seccion_1_primero":"Through information and inquiry we do we focus on the identity design for Florence Vario - Services fashion- , we think an effective , clean , strong and easy brand recognition . We knew it had to be fun and pointing to a young and daring public.",
+	"p_seccion_1_segundo":"The design process was based on 3 parameters: sophisticated , funny and emotional . Features we saw reflected in the target audience of the brand. It must be a current and surprising identity.",
+	"h3_seccion_3_title":"<span>Branding / Florencia Vario</span>",
+	"p_seccion_3_title":"<span>customer</span> - Florencia Vario",
+	"p_seccion_3_subtitle":"<span>Challenge</span>",
+	"p_seccion_3_parrafo":"Emotional. This is how we begin to generate corporate identity for Florencia Vario , advertising agency specializing in fashion. The brand is aimed at young people who are interested in the world of fashion.",
+	"p_seccion_5_subtitle":"<span>objetive</span>",
+	"p_seccion_5_parrafo":"It was to create a sophisticated , strong, vibrant image full of emotion. Where speed and vertigo are protagonists . The intense colors reinforce this idea of ​​our youth. The diagonals give us that speed and dynamism that we look for the brand. We generate a composition of shapes, colors and spaces that speak for themselves in each of their projects.",
+	"h3_seccion_6_text_muchas":"Thank",
+	"h3_seccion_6_text_grax":"You",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

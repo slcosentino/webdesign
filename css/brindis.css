@@ -162,9 +162,7 @@ p.parrafo {
 }
 @media (min-width: 450px) and (max-width: 900px){
 	.seccion-2{
-	    padding: 25% 0;
-	    background: url(../images/brindis-seccion-2-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/brindis-seccion-2-bg-900x600.jpg);
 	}
 	.seccion-3{
 		background:none;
@@ -193,16 +191,12 @@ p.parrafo {
 	    background: none;
 	}
 	.seccion-5{
-	    padding: 24% 0;
-	    background: url(../images/brindis-seccion-5-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/brindis-seccion-5-bg-900x600.jpg);
 	}
 }
 @media (max-width: 449px) {
 	.seccion-2{
-	    padding: 65% 0;
-	    background: url(../images/brindis-seccion-2-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/brindis-seccion-2-bg-450x600.jpg);
 	}
 	.seccion-3{
 		background:none;
@@ -227,17 +221,10 @@ p.parrafo {
 	    background-size: 100% 100%;
 	}	
 	.seccion-5{
-	    padding: 50% 0;
-	    background: url(../images/brindis-seccion-5-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+	    content: url(../images/brindis-seccion-5-bg-450x600.jpg);
 	}
 }
 @media (min-width: 901px) {
-	.seccion-2{
-	    padding: 14% 0;
-	    background: url(../images/brindis-seccion-2-bg-2000x589.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
-	}
 	.seccion-3{
 	    padding: 5% 0;
 	    background: url(../images/brindis-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
@@ -251,11 +238,6 @@ p.parrafo {
 	.seccion-4-2{
 	    padding: 18% 0;
 	    background: url(../images/brindis-seccion-4-bg-2-2000x728.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
-	}
-	.seccion-5{
-	    padding: 18% 0;
-	    background: url(../images/brindis-seccion-5-bg-2000x790.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
 	}
 }	
