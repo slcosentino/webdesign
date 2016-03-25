@@ -39,7 +39,7 @@ h1.logo{
 	margin-top: 0;
 }
 /*----navbar-nav----*/
-.top-nav ul li a.lang-Changer-en {
+.top-nav ul li a.lang-Changer-en,.top-nav ul li a.lang-Changer-en-index {
     padding: 0.2em 0em;
 }
 .top-nav ul li a{
@@ -104,6 +104,9 @@ nav a:hover{
 nav a#pull {
 	display: none;
 }
+a.current {
+	color: #F4BB36;
+}
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
 	nav { 
@@ -166,7 +169,7 @@ nav a#pull {
 	}
 }
 @media (min-width : 768px) {
-	.top-nav ul li a.lang-Changer-es {
+	.top-nav ul li a.lang-Changer-es,.top-nav ul li a.lang-Changer-es-index {
     	padding: 0.2em 0em 0.2em 1.9em;
 	}
 	li#langChanger {
@@ -177,7 +180,7 @@ nav a#pull {
 	}
 }
 @media (min-width : 768px) and (max-width: 960px) {
-	.top-nav ul li a.lang-Changer-es {
+	.top-nav ul li a.lang-Changer-es,.top-nav ul li a.lang-Changer-es-index {
     	padding-left: 0.5em;
 	}
 	.logo a{
