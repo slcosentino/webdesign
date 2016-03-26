@@ -144,11 +144,27 @@ var app = {
 					type: 'POST',
 					data: $form.serialize(),
 					success: function(result) {											
+						var type = BootstrapDialog.TYPE_SUCCESS;
+				  
+					    //Si llega un codigo de error
+					    if (result!="success"){
+					        type =  BootstrapDialog.TYPE_DANGER;
+					    	BootstrapDialog.show({
+						        type : type,
+						        title: "Formulario de contacto",
+						        message: result
+					    	});					        
+					    }else{
+					    	BootstrapDialog.show({
+						        type : type,
+						        title: "Formulario de contacto",
+						        message: "Envio exitoso"
+					    	});
+					    }					   
 						console.log(result);						
-						$('#contactForm').formValidation('resetForm', true);						
-						FormValidation.AddOn.reCaptcha2.reset('captchaContainer');
+						$('#contactForm').formValidation('resetForm', true);												
 					}
-				});
+				});				
 			});
 
 		});

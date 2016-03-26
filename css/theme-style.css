@@ -1285,16 +1285,25 @@ span.default_line {
 	margin-top:2em;
 }
 .modal-dialog {    
-    margin: 132px;
+    margin-top: 132px;
 }
 .close {
-	font-size: 5em;
+	font-size: 3em;
 }
 .modal-header .close {
-    margin-top: -100%;
+    margin-top: -60%;
 }
 .modal.bootstrap-dialog .bootstrap-dialog-message {
     font-size: 2em;
+}
+.has-feedback.field-success .fv-icon-no-label{
+	color: #3CB300;
+}
+.has-feedback.field-error .fv-icon-no-label {
+    color: #FF0000;
+}
+.form-group .help-block {
+	color: #F4BB36;
 }
 
 /*-----start-footer----*/
