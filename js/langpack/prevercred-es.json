@@ -1,0 +1,25 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Prevercred",
+	"p_seccion_1_title":"-Diseño integro del sitio web.",
+	"p_seccion_1_primero":"Hemos sido convocados por Prevercred, para rediseñar y adaptar a las nuevas tecnolog&iacute;as su web institucional. Contando con su identidad altamente reconocible en el &aacute;mbito financiero, decidimos darle la importancia que merec&iacute;a para su sector.",
+	"p_seccion_1_segundo":"El tiempo de desarrollo para este proyecto fue de s&oacute;lo un mes, y decidimos dar lo mejor de nosotros para que el resultado fuese &oacute;ptimo y funcional.",
+	"h3_seccion_3_title":"<span>Web / Prever</span>",
+	"p_seccion_3_title":"<span>cliente</span> - Prevercred",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo":"Desarrollar una web funcional y llamativa en tiempos cortos. Una web que deb&iacute;a reflejar todo el esp&iacute;ritu de Prevercred, la familia, los jubilados, los empleados estatales se tienen que ver reflejados. El lenguaje y los elementos visuales ten&iacute;an que mantener la identidad de Prevercred en todos los aspectos y llegar a la gente de una forma simple y llamativa a la vez.",
+	"p_seccion_5_subtitle":"<span>Lenguaje Gr&aacute;fico</span>",
+	"p_seccion_5_parrafo":"Creamos un lenguaje fiel a la historia de Prevercred, con su personalidad y capaz de llegar al p&uacute;blico requerido. Creamos iconos y caracteres originales, en conjunto con sus personajes en diferentes situaciones nuevas nunca antes vistas.El proceso creativo fue determinar una serie de circunstancias en donde los personajes nos reflejen el servicio y las posibilidades que brinda Prevercred a sus clientes.",
+	"p_seccion_6_subtitle":"<span>Objetivo</span>",
+	"p_seccion_6_parrafo":"Desarrollamos una web responsive, f&aacute;cil de navegar, divertida y llena de vida en donde cada momento tiene su importancia. Seguimos los lineamientos gr&aacute;ficos necesarios para lograr el objetivo. El permanecer unida a la identidad est&eacute;tica y la marca que distingue a Prevercred, hemos desarrollado una web capaz de proporcionar un valor adicional relevante para el universo de la marca. En un universo de marca donde el valor añadido es la clave de la diferenciaci&oacute;n con las dem&aacute;s financieras del mercado. Por eso Prevercred se distingue.",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

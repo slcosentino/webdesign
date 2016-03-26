@@ -1,0 +1,327 @@
+/*  Seccion 1  */
+.prevercred-head h3{
+	text-transform: uppercase;
+	color: #714195;
+	font-weight: 700;
+	font-size: 1.6em;
+	margin: 0;
+}
+.prevercred-head p{
+	color: #979996;
+	font-size: 0.875em;
+	margin-left: 40px;
+	line-height: 1.8em;
+}
+.prevercred-head-2 p{
+	color: #979996;
+	font-size: 0.875em;
+	line-height: 1.8em;
+	margin-top: 10%;
+}
+.prevercred-box-main{
+	padding: 1.5em 0 6em 0;
+}
+
+/*  Seccion 2  */
+
+
+/*  Seccion 3  */
+.seccion-3 h3{
+	text-transform: uppercase;
+	color: #382818;
+	font-weight: 700;
+	font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+.seccion-3 .sin-padding{
+	padding: 0;
+	margin-bottom: 14%;
+}
+.seccion-3 h3 span{
+	color: #000;
+}
+.seccion-3 .sin-padding div p.title{
+    color: #382818;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    margin-bottom: 0;
+    text-align: center;
+}
+.seccion-3 p.title span,.seccion-3 p.title2 span{
+	font-weight: 700;
+}
+.seccion-3 p.title2{
+    color: #382818;
+    font-size: 1em;
+    margin-left: 5%;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+p.parrafo {
+    font-size: 0.8em;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+/*  Seccion 5  */
+.seccion-5 h3{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+	font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+.seccion-5 .sin-padding{
+	padding: 0;
+}
+.seccion-5 p.title2 span{
+	font-weight: 700;
+}
+.seccion-5 p.title2{
+    color: #000;
+    font-size: 1em;
+    margin-left: 5%;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+.seccion-5 p.parrafo {
+    color: #000;
+}
+
+/*  Seccion 6  */
+.seccion-6 .sin-padding{
+	padding: 0;
+	margin-bottom: 14%;
+}
+.seccion-6 p.title2{
+    color: #FFF;
+    font-size: 1em;
+    margin-left: 5%;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+.seccion-6  p.parrafo2 {
+    font-size: 0.8em;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: #FFF;
+}
+.seccion-6 p.title2 span {
+    font-weight: 700;
+}
+
+/* Animaciones */
+.seccion-3{
+	animation-delay:2s;
+}
+.seccion-3 div.titulo{
+    animation-delay: 3s;    
+}
+.seccion-3 p.title2{
+    animation-delay: 3s;    
+}
+.seccion-3 p.parrafo{
+    animation-delay: 3s;    
+}
+.seccion-5{
+	animation-delay:2.5s;
+}
+.seccion-5 div.titulo{
+    animation-delay: 3.5s;    
+}
+.seccion-5 p.title2{
+    animation-delay: 3.5s;    
+}
+.seccion-5 p.parrafo{
+    animation-delay: 3.5s;    
+}
+.seccion-6{
+	animation-delay:6s;
+}
+.seccion-6 p.title2{
+    animation-delay: 7s;    
+}
+.seccion-6 p.parrafo2{
+    animation-delay: 7s;    
+}
+
+/*  Responsive  */
+@media (max-width:480px){
+	.gamers-head h3{
+		font-size: 1.3em;
+	 }
+}
+@media (max-width:320px){
+	.gamers-head p {
+		font-size: 0.8125em;
+	}
+	.gamers-head p {
+		font-size: 0.8125em;
+	}
+}
+@media (min-width: 450px) and (max-width: 900px){
+	.seccion-2{
+	    content: url(../images/prevercred-seccion-2-bg-900x600.jpg);
+	}
+	.seccion-3{
+		background-color: #F8F8FA;
+	}
+	.seccion-3-2{
+		padding: 25% 0;
+	    background: url(../images/prevercred-seccion-3-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4{
+	    content: url(../images/prevercred-seccion-4-bg-900x600.jpg);
+	}
+	.seccion-5{
+		background-color: #F9F9F9;
+	}
+	.seccion-5-2{
+		padding: 25% 0;
+	    background: url(../images/prevercred-seccion-5-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}		
+	.seccion-6{
+		background-color: #714195;
+	}
+	.seccion-6-2{
+		padding: 30% 0;
+	    background: url(../images/prevercred-seccion-6-bg-900x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}		
+}
+@media (max-width: 449px) {
+	.seccion-2{
+	    content: url(../images/prevercred-seccion-2-bg-450x600.jpg);
+	}
+	.seccion-3{
+		background-color: #F8F8FA;
+	}
+	.seccion-3-2{
+	    padding: 71% 0;
+	    background: url(../images/prevercred-seccion-3-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-4{
+	    content: url(../images/prevercred-seccion-4-bg-450x600.jpg);
+	}
+	.seccion-5{
+		background-color: #FFF;
+	}
+	.seccion-5-2{
+		padding: 70% 0;
+	    background: url(../images/prevercred-seccion-5-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-6{
+		background-color: #714195;
+	}
+	.seccion-6-2{
+		padding: 70% 0;
+	    background: url(../images/prevercred-seccion-6-bg-450x600.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}			
+}
+@media (min-width: 901px) {
+	.seccion-3{
+	    padding: 5% 0;
+	    background: url(../images/prevercred-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-5{
+	    padding: 12% 0;
+	    background: url(../images/prevercred-seccion-5-bg-2000x700.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}
+	.seccion-6{
+	    padding: 10% 0;
+	    background: url(../images/prevercred-seccion-6-bg-2000x790.jpg) no-repeat 0px 0px;
+	    background-size: 100% 100%;
+	}			
+}
+@media (max-width: 900px) {
+	.seccion-3 .col-xs-2{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-xs-4{
+		width: 83.33333%;
+	}
+	.seccion-3 .col-xs-6{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-md-2{
+		width: 8.33333%;
+	}
+	.seccion-3 .col-md-4{
+		width: 83.33333%;
+	}
+	.seccion-3 .col-md-6{
+		width: 8.33333%;
+	}
+	.seccion-3 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+	.seccion-5 .col-md-1{
+		width: 8.33333%;
+	}
+	.seccion-5 .col-md-4{
+		width: 83.33333%;
+	}
+	.seccion-5 .col-md-7{
+		width: 8.33333%;
+	}	
+	.seccion-5 .col-xs-1{
+		width: 8.33333%;
+	}
+	.seccion-5 .col-xs-4{
+		width: 83.33333%;
+	}
+	.seccion-5 .col-xs-7{
+		width: 8.33333%;
+	}
+	.seccion-5 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+	.seccion-6 .col-xs-2{
+		width: 8.33333%;
+	}
+	.seccion-6 .col-xs-4{
+		width: 83.33333%;
+	}
+	.seccion-6 .col-xs-6{
+		width: 8.33333%;
+	}
+	.seccion-6 .col-md-2{
+		width: 8.33333%;
+	}
+	.seccion-6 .col-md-4{
+		width: 83.33333%;
+	}
+	.seccion-6 .col-md-6{
+		width: 8.33333%;
+	}
+	.seccion-6 .sin-padding {
+        margin-bottom: 2%;
+        margin-top: 5%;
+	}
+}
+@media (max-width: 700px){
+	.seccion-3 {
+	    padding: 0;
+	}
+	.seccion-6 {
+	    padding: 0;
+	}
+}
