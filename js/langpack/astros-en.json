@@ -1,0 +1,33 @@
+{
+	"MenuInicio": "Home<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Our services<span></span>",
+	"MenuQuienes": "About us<span></span>",
+	"MenuClientes": "Customers<span></span>",
+	"MenuContactenos": "Contact us<span></span>",
+	"h3_seccion_1_title":"Tus Astros",
+	"p_seccion_1_title":"-Graphic design app.",
+	"p_seccion_1_primero":"Tus Astros is a social platform that lets you know about your future , play with the compatibility of signs or break the fortune cookie , among other things. All supervised by professionals. Users access in a simple way and can dynamically cross it contains all applications.",
+	"p_seccion_1_segundo":"It is a platform that is kept updated daily and each user can know your lucky number or what the future holds at the time you want. We needed to create a language that is striking and at the same time according to graphic universe that represents.",
+	"h3_seccion_3_title":"<span>App / Tus Astros</span>",
+	"p_seccion_3_title":"<span>customer</span> - Dynamo",
+	"p_seccion_3_subtitle":"<span>Challenge</span>",
+	"p_seccion_3_parrafo":"Develop pregnante designing a platform that encourages the user to navigate , taking into account the variety of features it has. The premise was to use few elements and striking images that enrich the experience of the user.The biggest challenge was to bring these experiences to mobile phones and do it with smooth navigation.",
+	"p_seccion_5_subtitle":"<span>Graphic Language</span>",
+	"p_seccion_5_parrafo":"We decided not distract the user with highly developed elements , since the idea is that they are quick vision. Thus a linear graphic system , where all the elements relevant to each section is represented generated . It was a fair job , with the determination to be as simple and understandable as possible because the important thing is the result platform that gives each section not the elements.",
+	"p_seccion_6_subtitle":"<span>Objetive</span>",
+	"p_seccion_6_parrafo":"Get to achieve what something simple and clear complex . The platform no longer has its visual appeal and above all that information is read. We want the user does not make an effort , so we have an effective and strong communication , enhancing the information required and the link for the user with the section. The most important thing for us was the differentiation of the sections, even using the same tone.",
+	"p_seccion_7_parrafo1":"The fortune",
+	"p_seccion_7_parrafo2":"With you",
+	"p_seccion_7_parrafo3":"Thank You",	
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}
