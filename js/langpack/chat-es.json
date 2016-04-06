@@ -1,0 +1,28 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Tus Astros",
+	"p_seccion_1_title":"-Diseño gr&aacute;fico de la app.",
+	"p_seccion_1_primero":"Tus Astros es una plataforma social que te permite saber sobre tu futuro, jugar con la compatibilidad de signos o romper la galleta de la fortuna, entre otras cosas. Todo supervisado por  profesionales del &aacute;rea. Los usuarios acceden de una forma sencilla y pueden recorrerla din&aacute;micamente todas las aplicaciones que contiene.",
+	"p_seccion_1_segundo":"Es una plataforma que se mantiene actualizada diariamente y cada usuario puede saber su n&uacute;mero de la suerte o lo que le depara el destino en el momento que lo desee. Necesit&aacute;bamos la creaci&oacute;n de un lenguaje propio que sea llamativo y a la vez acorde al universo grafico que representa.",
+	"h3_seccion_3_title":"<span>App / Tus Astros</span>",
+	"p_seccion_3_title":"<span>cliente</span> - Dynamo",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo":"Desarrollar el diseño de una plataforma pregnante, que incite al usuario a navegar, teniendo en cuenta la variedad de funcionalidades que posee. La premisa fue utilizar pocos elementos e im&aacute;genes llamativas que enriquecen la experiencia del usuario.El m&aacute;ximo desaf&iacute;o fue llevar este tipo de experiencias a los tel&eacute;fonos m&oacute;viles y hacerlo con una navegaci&oacute;n fluida.",
+	"p_seccion_5_subtitle":"<span>Lenguaje Gr&aacute;fico</span>",
+	"p_seccion_5_parrafo":"Decidimos no distraer al usuario con elementos muy desarrollados, ya que la idea es que sean de visi&oacute;n r&aacute;pida. De tal manera se gener&oacute; un sistema gr&aacute;fico lineal, en donde se representaron todos los elementos pertinentes a cada secci&oacute;n. Fue un trabajo justo, con la determinaci&oacute;n de que sean lo m&aacute;s simple y comprensibles posible, ya que lo importante de la plataforma es el resultado que te da cada secci&oacute;n no los elementos.",
+	"p_seccion_6_subtitle":"<span>Objetivo</span>",
+	"p_seccion_6_parrafo":"Llegar a lograr de lo complejo algo simple y claro. Que la plataforma no deje de tener su atractivo visual y sobre todo que la informaci&oacute;n se lea. Buscamos que el usuario no tenga que esforzarse, de esta manera logramos tener una comunicaci&oacute;n efectiva y contundente, potenciando la informaci&oacute;n requerida y el v&iacute;nculo del usuario con la secci&oacute;n. Lo m&aacute;s importante para nosotros era la diferenciación de las secciones, aun utilizando el mismo tono.",
+	"p_seccion_7_parrafo1":"Que la fortuna",
+	"p_seccion_7_parrafo2":"Te acompañe",
+	"p_seccion_7_parrafo3":"Muchas Gracias",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

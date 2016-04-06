@@ -169,22 +169,16 @@ p.parrafo {
 		padding: 0;
 	}
 	.seccion-3-2{
-		padding: 18% 0;
-	    background: url(../images/brindis-seccion-3-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-3-bg-900x600.jpg);
 	}
 	.seccion-4 .sin-padding{
     	margin: 1% 0 3% 0;
 	}
 	.seccion-4-2-2{
-	    padding: 20% 0;
-	    background: url(../images/brindis-seccion-4-bg-2-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-4-bg-2-900x600.jpg);
 	}
 	.seccion-4-1{
-	    padding: 15% 0;
-	    background: url(../images/brindis-seccion-4-bg-1-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-4-bg-1-900x600.jpg);
 	}
 	.seccion-4-2{
 	    padding: 0;
@@ -203,22 +197,16 @@ p.parrafo {
 		padding: 0;
 	}
 	.seccion-3-2{
-	    padding: 71% 0;
-	    background: url(../images/brindis-seccion-3-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-3-bg-450x600.jpg);
 	}
 	.seccion-4 .sin-padding{
     	margin: 1% 0 3% 0;
 	}
 	.seccion-4-2-2{
-	    padding: 40% 0;
-	    background: url(../images/brindis-seccion-4-bg-2-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-4-bg-2-450x600.jpg);
 	}
 	.seccion-4-1{
-	    padding: 50% 0;
-	    background: url(../images/brindis-seccion-4-bg-1-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/brindis-seccion-4-bg-1-450x600.jpg);
 	}	
 	.seccion-5{
 	    content: url(../images/brindis-seccion-5-bg-450x600.jpg);
@@ -230,16 +218,17 @@ p.parrafo {
 	    background: url(../images/brindis-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
 	}
-	.seccion-4-1{
-	    padding: 12% 0;
-	    background: url(../images/brindis-seccion-4-bg-1-2000x700.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
-	}
+	.seccion-3-2{
+		display: none;
+	}	
 	.seccion-4-2{
 	    padding: 18% 0;
 	    background: url(../images/brindis-seccion-4-bg-2-2000x728.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
 	}
+	.seccion-4-2-2{
+		display: none;
+	}	
 }	
 @media (max-width: 970px) {
 	.brindis-head {
@@ -269,6 +258,14 @@ p.parrafo {
         margin-bottom: 2%;
         margin-top: 5%;
 	}
+	.seccion-3 .col-md-12{
+		padding-right:0; 
+		padding-left:0;
+	}
+	.seccion-3 .col-xs-12{
+		padding-right:0; 
+		padding-left:0;
+	}	
 	.seccion-4 .col-xs-1{
 		width: 8.33333%;
 	}
@@ -278,6 +275,14 @@ p.parrafo {
 	.seccion-4 .col-xs-7{
 		width: 8.33333%;
 	}
+	.seccion-4 .col-md-12{
+		padding-right:0; 
+		padding-left:0;
+	}
+	.seccion-4 .col-xs-12{
+		padding-right:0; 
+		padding-left:0;
+	}	
 }
 
 @media (max-width: 700px){

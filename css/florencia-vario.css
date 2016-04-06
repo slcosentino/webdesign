@@ -162,9 +162,7 @@ p.parrafo {
 		background-color: #F8F8F8;
 	}
 	.seccion-3-2{
-		padding: 25% 0;
-	    background: url(../images/Flor-Vario-seccion-3-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-3-bg-900x600.jpg);
 	}
 	.seccion-4{
 	    content: url(../images/Flor-Vario-seccion-4-bg-900x600.jpg);
@@ -173,17 +171,13 @@ p.parrafo {
 		background-color: #F9F9F9;
 	}
 	.seccion-5-2{
-		padding: 25% 0;
-	    background: url(../images/Flor-Vario-seccion-5-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-5-bg-900x600.jpg);
 	}		
 	.seccion-6{
-		background-color: #C95898;
+		background-color: #C75495;
 	}
 	.seccion-6-2{
-		padding: 30% 0;
-	    background: url(../images/Flor-Vario-seccion-6-bg-900x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-6-bg-900x600.jpg);
 	}		
 }
 @media (max-width: 449px) {
@@ -194,9 +188,7 @@ p.parrafo {
 		background-color: #F8F8F8;
 	}
 	.seccion-3-2{
-	    padding: 71% 0;
-	    background: url(../images/Flor-Vario-seccion-3-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-3-bg-450x600.jpg);
 	}
 	.seccion-4{
 	    content: url(../images/Flor-Vario-seccion-4-bg-450x600.jpg);
@@ -205,17 +197,13 @@ p.parrafo {
 		background-color: #FFF;
 	}
 	.seccion-5-2{
-		padding: 70% 0;
-	    background: url(../images/Flor-Vario-seccion-5-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-5-bg-450x600.jpg);
 	}
 	.seccion-6{
-		background-color: #C95898;
+		background-color: #C75495;
 	}
 	.seccion-6-2{
-		padding: 70% 0;
-	    background: url(../images/Flor-Vario-seccion-6-bg-450x600.jpg) no-repeat 0px 0px;
-	    background-size: 100% 100%;
+		content: url(../images/Flor-Vario-seccion-6-bg-450x600.jpg);
 	}			
 }
 @media (min-width: 901px) {
@@ -224,15 +212,24 @@ p.parrafo {
 	    background: url(../images/Flor-Vario-seccion-3-bg-2000x700.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
 	}
+	.seccion-3-2{
+		display: none;
+	}	
 	.seccion-5{
 	    padding: 12% 0;
 	    background: url(../images/Flor-Vario-seccion-5-bg-2000x700.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
 	}
+	.seccion-5-2{
+		display: none;
+	}	
 	.seccion-6{
 	    padding: 10% 0;
 	    background: url(../images/Flor-Vario-seccion-6-bg-2000x790.jpg) no-repeat 0px 0px;
 	    background-size: 100% 100%;
+	}
+	.seccion-6-2{
+		display: none;
 	}
 	.seccion-6 h3.muchas{
 		margin-top: -30%;
@@ -261,6 +258,14 @@ p.parrafo {
         margin-bottom: 2%;
         margin-top: 5%;
 	}
+	.seccion-3 .col-md-12{
+		padding-right:0; 
+		padding-left:0;
+	}
+	.seccion-3 .col-xs-12{
+		padding-right:0; 
+		padding-left:0;
+	}	
 	.seccion-5 .col-md-1{
 		width: 8.33333%;
 	}
@@ -283,6 +288,14 @@ p.parrafo {
         margin-bottom: 2%;
         margin-top: 5%;
 	}
+	.seccion-5 .col-md-12{
+		padding-right:0; 
+		padding-left:0;
+	}
+	.seccion-5 .col-xs-12{
+		padding-right:0; 
+		padding-left:0;
+	}	
 	.seccion-5 p.title2 {
 		color: #BC518E;
 	}
@@ -307,6 +320,14 @@ p.parrafo {
 	.seccion-6 .col-xs-6{
 		width: 8.333%;
 	}
+	.seccion-6 .col-md-12{
+		padding-right:0; 
+		padding-left:0;
+	}
+	.seccion-6 .col-xs-12{
+		padding-right:0; 
+		padding-left:0;
+	}	
 	.seccion-6 h3,.seccion-6 p{
 		text-align: center;
 	}

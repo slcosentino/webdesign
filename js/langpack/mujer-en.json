@@ -1,0 +1,34 @@
+{
+	"MenuInicio": "Home<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Our services<span></span>",
+	"MenuQuienes": "About us<span></span>",
+	"MenuClientes": "Customers<span></span>",
+	"MenuContactenos": "Contact us<span></span>",
+	"h3_seccion_1_title":"Mujer",
+	"p_seccion_1_title":"-Graphic design app.",
+	"p_seccion_1_primero":"Portal woman is a social platform that acts as a magazine magazine for women , but on your mobile device. This site contains a lot of content related to women and also makes interact with trivia and games. We were asked to leave the mold and do something new for the woman but with the concept of online magazine.",
+	"p_seccion_1_segundo":"It is a platform that is maintained weekly date , both notes, such as games and quizzes .",
+	"h3_seccion_3_title":"<span>App / Portal Mujer</span>",
+	"p_seccion_3_title":"<span>customer</span> - Dynamo",
+	"p_seccion_3_subtitle":"<span>Challenge</span>",
+	"p_seccion_3_parrafo1":"Develop the design of a platform where different content and actions interact in an orderly and consistent. The main premise was that women feel identified , both images, such as notes, for graphic language .",
+	"p_seccion_3_parrafo2":"The idea was to show women as a &quot; super hero &quot; . And each section has to do with these powers.",
+	"p_seccion_5_subtitle":"<span>Graphic Language</span>",
+	"p_seccion_5_parrafo1":"We decided to take the concept of superhero as foundation stone of the visual identity of the portal. The entire site was performed as if an interactive cartoon, using the cartoons as a reference , brackets, or points of visual attraction.",
+	"p_seccion_5_parrafo2":"These elements also served us for subdivisions of sections and as a graphic illustration resource .",
+	"p_seccion_6_subtitle":"<span>Objetive</span>",
+	"p_seccion_6_parrafo1":"The platform has a unique , attractive , feminine and dynamic visual identity.",
+	"p_seccion_6_parrafo2":"Do not forget the role of the portal for us was critical, therefore we considered that the notes have easy and fluent reading . Same for the Test or trivia.",
+	"p_seccion_6_parrafo3":"Subdivisions and portal navigation was another important issue. Therefore within any section you can go to related notes or jump to different parts of the site ; so we did a user experience much more suited to the sought. Simulating the use of a magazine.",	
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

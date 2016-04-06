@@ -62,8 +62,10 @@
 	<script src="js/formValidation.min.js"></script>	
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap-dialog.js"></script>
+	<script src="js/bootstrap-dialog.js"></script>	
+	<script src="js/i18n.js"></script>
 	<script src="js/reCaptcha2.js"></script>
+	<script src="js/change-active-on-scroll.js"></script>	
 		
 </head>
 <body>
@@ -78,7 +80,7 @@
 
 	</script>
 
-	<div id="home" class="header">
+	<div id="home" class="header section">
 		<div class="navbar navbar-fixed-top">
 			<div class="container">
 				<h1 class="logo">
@@ -87,7 +89,7 @@
 				<!----start-top-nav---->
 				<nav class="top-nav">
 					<ul class="top-nav">
-						<li class="active"><a href="#home" class="scroll"  data-translate="MenuInicio">Inicio <span>
+						<li><a href="#home" class="scroll active"  data-translate="MenuInicio">Inicio <span>
 							</span></a></li>
 						<li class="page-scroll"><a href="#port" class="scroll"  data-translate="MenuPortfolio">Portfolio
 								<span> </span>
@@ -161,7 +163,7 @@
 	<!----- //End-slider---->
 
 	<!--start-portfolio-->
-	<div id="port" class="portfolio-box-main">
+	<div id="port" class="portfolio-box-main section">
 		<div class="container">
 			<div class="portfolio-head text-center">
 				<h3>Portfolio</h3>
@@ -208,7 +210,7 @@
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/appTel-573x414.jpg" alt="Chat">
-									        <figcaption class="blue"><a href="#">
+									        <figcaption class="blue"><a href="chat.html">
 									          <h2>Chat</h2>
 									          <em data-translate="chat_text">Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
@@ -222,7 +224,7 @@
 									    </li>
 									    <li class="double wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
 									      <figure><img src="images/super-woman-860x408.jpg" alt="Super-woman">
-									        <figcaption class="purple"><a href="#">
+									        <figcaption class="purple"><a href="mujer.html">
 									          <h2>Super Woman</h2>
 									          <em data-translate="super_woman_text">Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
@@ -285,14 +287,14 @@
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/appTel-573x414.jpg" alt="Chat">
-									        <figcaption class="blue"><a href="#">
+									        <figcaption class="blue"><a href="chat.html">
 									          <h2>Chat</h2>
 									          <em data-translate="chat_text">Portal para comunicarse con personas</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
 									    </li>
 									    <li class="wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 									      <figure><img src="images/super-woman-860x408.jpg" alt="Super-woman">
-									        <figcaption class="blue"><a href="#">
+									        <figcaption class="blue"><a href="mujer.html">
 									          <h2>Super Woman</h2>
 									          <em data-translate="super_woman_text">Portal para la mujer</em> <img src="images/wave-icon.png" alt="Image"> </a></figcaption>
 									      </figure>
@@ -326,7 +328,7 @@
 	</div>
 	<!----//End-portfolio---->
 	<!----start-services---->
-	<div id="ser" class="services">
+	<div id="ser" class="services section">
 		<div class="container">
 			<div class="services-head text-center">
 				<h3 data-translate="h3_servicios_text">Nuestros Servicios</h3>
@@ -409,7 +411,7 @@
 	<!--//End-services-grids-->
 
 	<!-- start-about-->
-	<div id="about" class="about">
+	<div id="about" class="about section">
 		<div class="container">
 			<!-- start-about-grids-->
 			<div class="about-grids">
@@ -445,7 +447,7 @@
 	<!-- //End-about-->	
 
 	<!--start-portfolio-->
-		<div id="clientes" class="portfolio-box-main">
+		<div id="clientes" class="portfolio-box-main section">
 			<div class="container">
 				<div class="portfolio-head text-center">
 					<h3 data-translate="h3_clientes">Clientes</h3>
@@ -461,7 +463,7 @@
 		</div>
 
 	<!----start-contact---->
-	<div id="contact" class="contact">
+	<div id="contact" class="contact section">
 		<div class="container">
 			<div class="contact-head text-center">
 				<h3 data-translate="h3_contacto">Contacto</h3>
@@ -509,7 +511,7 @@
 					<h4 data-translate="h4_info_contact">Info de contacto</h4>
 					<br />
 					<p>
-						<span class="icon2"> </span><a href="mailto:@example.com">infomsg@msgagency.com.ar</a>
+						<span class="icon2"> </span><a href="mailto:infomsg@msgagency.com.ar">infomsg@msgagency.com.ar</a>
 					</p>
 					<br />
 					<p>

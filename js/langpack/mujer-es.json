@@ -1,0 +1,29 @@
+{
+	"MenuInicio": "Inicio<span></span>",
+	"MenuPortfolio": "Portfolio<span></span>",
+	"MenuServicios": "Servicios<span></span>",
+	"MenuQuienes": "Qui&eacute;nes somos<span></span>",
+	"MenuClientes": "Clientes<span></span>",
+	"MenuContactenos": "Cont&aacute;ctenos<span></span>",
+	"h3_seccion_1_title":"Mujer",
+	"p_seccion_1_title":"-Diseño gr&aacute;fico de la app.",
+	"p_seccion_1_primero":"Portal mujer es una plataforma social que act&uacute;a como una revista magazine para la mujer, pero desde tu dispositivo m&oacute;vil. Este portal contiene mucho contenido referente a la mujer y adem&aacute;s la hace interactuar mediante trivias y juegos. Se nos pidi&oacute; salir del molde y hacer algo novedoso para la mujer pero con el concepto de revista on line.",
+	"p_seccion_1_segundo":"Es una plataforma que se mantiene actualizada semanalmente, tanto notas, como juegos y trivias.",
+	"h3_seccion_3_title":"<span>App / Portal Mujer</span>",
+	"p_seccion_3_title":"<span>cliente</span> - Dynamo",
+	"p_seccion_3_subtitle":"<span>Desafio</span>",
+	"p_seccion_3_parrafo1":"Desarrollar el diseño de una plataforma en donde diferentes contenidos y acciones interact&uacute;en de forma ordenada y coherente. La principal premisa fue que la mujer se sienta identificada, tanto por im&aacute;genes, como por notas, como por lenguaje gr&aacute;fico.",
+	"p_seccion_3_parrafo2":"La idea fue mostrar a la mujer como una &quot; s&uacute;per h&eacute;roe &quot;. Y que cada secci&oacute;n tenga que ver con estos poderes.",
+	"p_seccion_5_subtitle":"<span>Lenguaje Gr&aacute;fico</span>",
+	"p_seccion_5_parrafo1":"Decidimos tomar el concepto de s&uacute;per h&eacute;roe como piedra fundadora de la identidad visual del portal. Se realiz&oacute; todo el portal como si fuese una historieta interactiva, utilizando las viñetas como referentes, soportes, o puntos de atracci&oacute;n visual.",
+	"p_seccion_5_parrafo2":"Estos elementos nos sirvieron tambi&eacute;n para las subdivisiones de las secciones y como recurso gr&aacute;fico de ilustraci&oacute;n.",
+	"p_seccion_6_subtitle":"<span>Objetivo</span>",
+	"p_seccion_6_parrafo1":"Que la plataforma tenga una identidad visual &uacute;nica, atractiva, femenina y din&aacute;mica.",
+	"p_seccion_6_parrafo2":"No olvidar la funci&oacute;n del portal para nosotros fue fundamental, por ello tuvimos en cuenta que las notas tengan un f&aacute;cil acceso y de una lectura fluida. Lo mismo para los Test o Trivias.",
+	"p_seccion_6_parrafo3":"Las subdivisiones y la navegaci&oacute;n del portal fue otro tema importante. Por ello dentro de cualquier secci&oacute;n se puede ir a notas relacionadas o saltar a diferentes lugares del portal; de esta manera hicimos una experiencia de usuario mucho m&aacute;s acorde a lo buscado. Simulando el uso de una revista.",
+	"img" : {
+		"text" : "Esto es una imagen!",
+		"src" : "linktootherimage.jpg"
+	}
+  
+}

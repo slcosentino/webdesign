@@ -61,7 +61,7 @@ h1.logo{
 	right: 0;
 }
 .top-nav ul li.active a,
-.top-nav ul li a:hover{
+.top-nav ul li a:hover,.top-nav ul li a.active{
 	color:#F4BB36;
 }
 .logo a{
@@ -553,12 +553,15 @@ text-align:center;
 .resp-tab-active{
     text-shadow: none;
     color: #F4BB36;
+    font-weight: 700;
+}
+.resp-tab-item:hover{
+	color:#000;
 }
 .resp-tabs-container {
 	padding: 0px;
 	background-color: #fff;
 	clear: left;
-	
 }
 h2.resp-accordion {
 	cursor: pointer;
