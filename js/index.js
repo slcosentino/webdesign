@@ -4,7 +4,17 @@ var app = {
 		
 	initialize : function() {
 
-		$('[data-translate]').jqTranslate('index', { path:'js/langpack'});
+		$(function() {
+			var w = $(window).width();
+			var menu = $('nav ul');
+			if (w <= 768 ) {
+				$("ul.top-nav li a.scroll").click(function(event) {
+					menu.slideToggle();
+				});
+			}
+		});
+
+		$('[data-translate]').jqTranslate('index', { path:'js/langpack'});		
 
 		$(function() {
 			$(".lang-Changer-es-index").click(function(event) {
