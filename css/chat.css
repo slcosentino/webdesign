@@ -19,7 +19,7 @@
 	margin-top: 10%;
 }
 .chat-box-main{
-	padding: 1.5em 0 6em 0;
+	padding: 1.5em 0 3em 0;
 }
 
 /*  Seccion 2  */
@@ -102,7 +102,7 @@ p.parrafo {
 	margin-bottom: 14%;
 }
 .seccion-6 .sin-padding div p.title{
-    color: #FFF;
+    color: #000;
     font-size: 1em;
     text-transform: uppercase;
     line-height: 1.8em;
@@ -113,7 +113,7 @@ p.parrafo {
 	font-weight: 700;
 }
 .seccion-6 p.title2{
-    color: #FFF;
+    color: #000;
     font-size: 1em;
     margin-left: 5%;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ p.parrafo {
     font-size: 0.8em;
     margin-left: 5%;
     margin-top: 1%;
-    color:#FFF;
+    color:#000;
 }
 
 /*  Seccion 7  */
@@ -220,7 +220,7 @@ p.parrafo {
 	    content: url(../images/chat-seccion-4-bg-900x600.jpg);
 	}
 	.seccion-5{
-		background-color: #DC6164;
+		background-color: #de6264;
 	}
 	.seccion-5-2{
 		content: url(../images/chat-seccion-5-bg-900x600.jpg);
@@ -269,7 +269,7 @@ p.parrafo {
 	    content: url(../images/chat-seccion-4-bg-450x600.jpg);
 	}
 	.seccion-5{
-		background-color: #DC6164;
+		background-color: #de6264;
 	}
 	.seccion-5-2{
 		content: url(../images/chat-seccion-5-bg-450x600.jpg);
@@ -319,6 +319,18 @@ p.parrafo {
 	.seccion-5-2{
 		display: none;
 	}
+	.seccion-5-1-1{
+		margin-left: 5%;
+		width: 90%;
+	}
+	.seccion-5-1-2{
+		margin-left: 5%;	
+		width: 90%;
+	}
+	.seccion-5-1-3{
+		margin-left: 5%;
+	    width: 90%;
+	}	
 	.seccion-6{
 	    padding: 5% 0;
 	    background: url(../images/chat-seccion-6-bg-2000x700.jpg) no-repeat 0px 0px;

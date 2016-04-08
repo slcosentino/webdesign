@@ -1149,7 +1149,7 @@ span.default_line {
 /*-----//End-team----*/
 /*-----start-contact----*/
 .contact{
-	background:url(../images/contact-bg.jpg) no-repeat 0px 0px;
+	background:#000;
 	padding: 9em 0 9em;
 	background-size: 100% 100%;
 }
@@ -1838,7 +1838,7 @@ span.default_line {
     background: rgba(100,59,189,0.8);
 }
 .home-portfolio ul li figure figcaption.green {
-    background: rgba(197,208,130,0.8);
+    background: rgba(197,208,130,0.9);
 }
 .home-portfolio ul li figure figcaption.light-blue {
     background: rgba(109,202,207,0.8);
