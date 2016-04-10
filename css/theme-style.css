@@ -681,6 +681,7 @@ h2.resp-accordion {
 }
 .about-grids .col-md-7{
 	padding-left: 0;
+	padding-right: 0;
 }
 .about-head{
 	margin-top: 15%;
@@ -1150,7 +1151,7 @@ span.default_line {
 /*-----start-contact----*/
 .contact{
 	background:#000;
-	padding: 9em 0 9em;
+	padding: 5em 0 5em;
 	background-size: 100% 100%;
 }
 .contact-head h3{
@@ -1493,7 +1494,7 @@ span.default_line {
 }
 @media (max-width:768px){
   #home {
-    padding: 0px 0 10px;
+    padding: 0;
   }
   .top-nav ul li a span {
 	background: none;
@@ -1503,6 +1504,9 @@ span.default_line {
   }
   .home-portfolio ul {
    	padding-left: 0;
+  }
+  body {
+    padding-top: 57px;
   }
 }
 @media (max-width:640px){
@@ -1559,6 +1563,9 @@ span.default_line {
 	.link-top span {
 	    font-size: 10px;
 	}
+	body {
+    	padding-top: 67px;
+	}
 }
 @media (max-width:480px){
  .slide-text-info h1 {
@@ -1604,6 +1611,36 @@ span.default_line {
 	bottom: 0px;
  } 
 }
+@media (max-width:440px){
+	.imag-quienes-somos{
+		content: url(../images/slide-quiens-somos-436x450.jpg);
+	}
+	.imag-portfolio{
+		content: url(../images/slide-portfolio-436x450.jpg);
+	}
+	.imag-contacto{
+		content: url(../images/slide-contacto-436x450.jpg);
+	}
+	.imag-clientes{
+		content: url(../images/clientes-436x450.png);	
+	}	
+	.imag-seccion-quienes-somos{
+		content: url(../images/image-about-436x450.jpg);
+	}
+	.resp-tabs-list .resp-tab-item {
+    	padding: 8px 10px;
+    	margin-left: 1px;
+    	margin-right: 1px;
+    	font-size: 0.8em;
+	}
+	.btn2 span.span-portfolio {
+    	width: 230px;
+	}
+	body {
+    	padding-top: 66px;
+	}
+}
+
 @media (max-width:414px){
 	.resp-tab-item {
 	    padding: 8px 9px;
