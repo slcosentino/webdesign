@@ -9,6 +9,7 @@ var app = {
 			var menu = $('nav ul');
 			if (w <= 768 ) {
 				$("ul.top-nav li a.scroll").click(function(event) {
+					event.preventDefault();
 					menu.slideToggle();
 				});
 			}
