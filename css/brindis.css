@@ -126,20 +126,20 @@ p.parrafo {
 .seccion-3 p.parrafo{
     animation-delay: 3s;    
 }
-.seccion-4{
-	animation-delay:2.5s;
+.seccion-4-1,.seccion-4-2,.seccion-4-2-2{
+	animation-delay:4s;
 }
 .seccion-4 div.titulo{
-    animation-delay: 3.5s;    
+    animation-delay: 5s;    
 }
 .seccion-4 p.title2{
-    animation-delay: 3.5s;    
+    animation-delay: 5s;    
 }
 .seccion-4 p.parrafo{
-    animation-delay: 3.5s;    
+    animation-delay: 5s;    
 }
 .seccion-5{
-	animation-delay:5s;
+	animation-delay:6s;
 }
 
 
